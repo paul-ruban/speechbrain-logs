@@ -1,0 +1,290 @@
+2021-04-14 15:27:25,503 - speechbrain.core - INFO - Beginning experiment!
+2021-04-14 15:27:25,543 - speechbrain.core - INFO - Experiment folder: /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX
+2021-04-14 15:27:26,146 - speechbrain.utils.superpowers - DEBUG - -f /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/avx
+-f /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/generic
+-f /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+appdirs==1.4.4
+attrs==20.3.0
+black==20.8b1
+certifi==2020.12.5
+cfgv==3.2.0
+chardet==4.0.0
+click==7.1.2
+distlib==0.3.1
+filelock==3.0.12
+flake8==3.8.4
+huggingface-hub==0.0.6
+HyperPyYAML==0.0.1
+identify==2.0.0
+idna==2.10
+iniconfig==1.1.1
+joblib==1.0.1
+mccabe==0.6.1
+mypy-extensions==0.4.3
+nodeenv==1.5.0
+numpy==1.19.1
+packaging==20.9
+pathspec==0.8.1
+pluggy==0.13.1
+pre-commit==2.10.1
+py==1.10.0
+pycodestyle==2.6.0
+pyflakes==2.2.0
+pyparsing==2.4.7
+pytest==6.2.2
+PyYAML==5.3.1
+regex==2020.11.13
+requests==2.25.1
+ruamel.yaml==0.16.12
+ruamel.yaml.clib==0.2.2
+scipy==1.5.2
+sentencepiece==0.1.91
+six==1.15.0
+-e git+https://github.com/speechbrain/speechbrain@97ea3e3340bb6e8538004f415ef98306ba309369#egg=speechbrain
+toml==0.10.2
+torch==1.8.1
+torchaudio==0.8.1
+tqdm==4.60.0
+typed-ast==1.4.1
+typing-extensions==3.7.4.3
+urllib3==1.26.4
+virtualenv==20.4.2
+yamllint==1.26.0
+
+
+2021-04-14 15:27:26,189 - speechbrain.utils.superpowers - DEBUG - 9cb63f24
+
+
+2021-04-14 15:27:26,302 - common_voice_lid_prepare - INFO - 45 languages detected!
+2021-04-14 15:27:26,952 - common_voice_lid_prepare - INFO - Data successfully split!
+2021-04-14 15:27:26,952 - common_voice_lid_prepare - INFO - Creating csv lists in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/train.csv ...
+2021-04-14 15:27:28,722 - common_voice_lid_prepare - INFO - /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/train.csv sucessfully created!
+2021-04-14 15:27:28,722 - common_voice_lid_prepare - INFO - Number of samples: 22196 
+2021-04-14 15:27:28,723 - common_voice_lid_prepare - INFO - Total duration: 30.04 Hours
+2021-04-14 15:27:28,726 - common_voice_lid_prepare - INFO - Creating csv lists in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/dev.csv ...
+2021-04-14 15:27:29,211 - common_voice_lid_prepare - INFO - /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/dev.csv sucessfully created!
+2021-04-14 15:27:29,212 - common_voice_lid_prepare - INFO - Number of samples: 5888 
+2021-04-14 15:27:29,212 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-14 15:27:29,212 - common_voice_lid_prepare - INFO - Creating csv lists in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/test.csv ...
+2021-04-14 15:27:29,700 - common_voice_lid_prepare - INFO - /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/test.csv sucessfully created!
+2021-04-14 15:27:29,700 - common_voice_lid_prepare - INFO - Number of samples: 5963 
+2021-04-14 15:27:29,700 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-14 15:27:30,143 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/language_family_encoder.txt, but file doesn't exist yet.
+2021-04-14 15:27:30,372 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-14 15:27:30,373 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/language_family_encoder.txt
+2021-04-14 15:27:30,374 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/language_name_encoder.txt, but file doesn't exist yet.
+2021-04-14 15:27:31,052 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-14 15:27:31,054 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/language_name_encoder.txt
+2021-04-14 15:27:31,055 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-04-14 15:27:33,441 - speechbrain.core - INFO - 4.5M trainable parameters in LID
+2021-04-14 15:27:33,445 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-04-14 15:27:33,446 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-04-14 15:34:43,778 - speechbrain.utils.train_logger - INFO - Epoch: 1, lr: 1.00e-03 - train loss: 3.72 - valid loss: 3.97, valid error: 9.38e-01
+2021-04-14 15:34:44,010 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+15-34-43+00
+2021-04-14 15:34:44,025 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2021-04-14 15:41:42,251 - speechbrain.utils.train_logger - INFO - Epoch: 2, lr: 1.00e-03 - train loss: 3.48 - valid loss: 3.55, valid error: 8.97e-01
+2021-04-14 15:41:42,467 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+15-41-42+00
+2021-04-14 15:41:42,524 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+15-34-43+00
+2021-04-14 15:41:42,524 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2021-04-14 15:48:26,747 - speechbrain.utils.train_logger - INFO - Epoch: 3, lr: 1.00e-03 - train loss: 3.31 - valid loss: 4.37, valid error: 8.82e-01
+2021-04-14 15:48:26,934 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+15-48-26+00
+2021-04-14 15:48:27,006 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+15-41-42+00
+2021-04-14 15:48:27,007 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2021-04-14 15:55:09,923 - speechbrain.utils.train_logger - INFO - Epoch: 4, lr: 1.00e-03 - train loss: 3.16 - valid loss: 4.87, valid error: 8.68e-01
+2021-04-14 15:55:10,132 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+15-55-09+00
+2021-04-14 15:55:10,214 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+15-48-26+00
+2021-04-14 15:55:10,215 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2021-04-14 16:02:13,319 - speechbrain.utils.train_logger - INFO - Epoch: 5, lr: 1.00e-03 - train loss: 3.03 - valid loss: 3.93, valid error: 8.24e-01
+2021-04-14 16:02:13,597 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-02-13+00
+2021-04-14 16:02:13,690 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+15-55-09+00
+2021-04-14 16:02:13,691 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2021-04-14 16:09:16,895 - speechbrain.utils.train_logger - INFO - Epoch: 6, lr: 1.00e-03 - train loss: 2.91 - valid loss: 6.10, valid error: 8.03e-01
+2021-04-14 16:09:17,109 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-09-16+00
+2021-04-14 16:09:17,214 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-02-13+00
+2021-04-14 16:09:17,215 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2021-04-14 16:16:21,004 - speechbrain.utils.train_logger - INFO - Epoch: 7, lr: 1.00e-03 - train loss: 2.79 - valid loss: 12.59, valid error: 7.96e-01
+2021-04-14 16:16:21,273 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-16-21+00
+2021-04-14 16:16:21,379 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-09-16+00
+2021-04-14 16:16:21,379 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2021-04-14 16:23:05,969 - speechbrain.utils.train_logger - INFO - Epoch: 8, lr: 1.00e-03 - train loss: 2.68 - valid loss: 6.67, valid error: 7.73e-01
+2021-04-14 16:23:06,447 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-23-05+00
+2021-04-14 16:23:06,572 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-16-21+00
+2021-04-14 16:23:06,572 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2021-04-14 16:29:47,849 - speechbrain.utils.train_logger - INFO - Epoch: 9, lr: 1.00e-03 - train loss: 2.57 - valid loss: 7.73, valid error: 7.56e-01
+2021-04-14 16:29:48,051 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-29-47+00
+2021-04-14 16:29:48,177 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-23-05+00
+2021-04-14 16:29:48,177 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2021-04-14 16:36:29,042 - speechbrain.utils.train_logger - INFO - Epoch: 10, lr: 1.00e-03 - train loss: 2.46 - valid loss: 28.21, valid error: 7.38e-01
+2021-04-14 16:36:29,247 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-36-29+00
+2021-04-14 16:36:29,393 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-29-47+00
+2021-04-14 16:36:29,393 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2021-04-14 16:43:15,932 - speechbrain.utils.train_logger - INFO - Epoch: 11, lr: 1.00e-03 - train loss: 2.33 - valid loss: 3.75, valid error: 7.21e-01
+2021-04-14 16:43:16,138 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-43-15+00
+2021-04-14 16:43:16,288 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-36-29+00
+2021-04-14 16:43:16,288 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2021-04-14 16:50:03,252 - speechbrain.utils.train_logger - INFO - Epoch: 12, lr: 1.00e-03 - train loss: 2.22 - valid loss: 11.67, valid error: 6.97e-01
+2021-04-14 16:50:03,462 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-50-03+00
+2021-04-14 16:50:03,611 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-43-15+00
+2021-04-14 16:50:03,612 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2021-04-14 16:56:49,461 - speechbrain.utils.train_logger - INFO - Epoch: 13, lr: 1.00e-03 - train loss: 2.07 - valid loss: 2.54, valid error: 6.69e-01
+2021-04-14 16:56:49,649 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-56-49+00
+2021-04-14 16:56:49,818 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-50-03+00
+2021-04-14 16:56:49,818 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2021-04-14 17:03:37,732 - speechbrain.utils.train_logger - INFO - Epoch: 14, lr: 1.00e-03 - train loss: 1.95 - valid loss: 3.42, valid error: 6.41e-01
+2021-04-14 17:03:37,975 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-03-37+00
+2021-04-14 17:03:38,149 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+16-56-49+00
+2021-04-14 17:03:38,149 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2021-04-14 17:10:49,558 - speechbrain.utils.train_logger - INFO - Epoch: 15, lr: 1.00e-03 - train loss: 1.82 - valid loss: 4.90, valid error: 6.27e-01
+2021-04-14 17:10:49,759 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-10-49+00
+2021-04-14 17:10:49,950 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-03-37+00
+2021-04-14 17:10:49,950 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2021-04-14 17:17:30,518 - speechbrain.utils.train_logger - INFO - Epoch: 16, lr: 1.00e-03 - train loss: 1.71 - valid loss: 6.15, valid error: 6.60e-01
+2021-04-14 17:17:30,732 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-17-30+00
+2021-04-14 17:17:30,911 - speechbrain.utils.epoch_loop - INFO - Going into epoch 17
+2021-04-14 17:24:33,128 - speechbrain.utils.train_logger - INFO - Epoch: 17, lr: 1.00e-03 - train loss: 1.59 - valid loss: 7.09, valid error: 6.32e-01
+2021-04-14 17:24:33,369 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-24-33+00
+2021-04-14 17:24:33,666 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-17-30+00
+2021-04-14 17:24:33,667 - speechbrain.utils.epoch_loop - INFO - Going into epoch 18
+2021-04-14 17:31:36,571 - speechbrain.utils.train_logger - INFO - Epoch: 18, lr: 1.00e-03 - train loss: 1.48 - valid loss: 7.42, valid error: 5.71e-01
+2021-04-14 17:31:36,741 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-31-36+00
+2021-04-14 17:31:37,043 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-24-33+00
+2021-04-14 17:31:37,074 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-10-49+00
+2021-04-14 17:31:37,075 - speechbrain.utils.epoch_loop - INFO - Going into epoch 19
+2021-04-14 17:38:28,942 - speechbrain.utils.train_logger - INFO - Epoch: 19, lr: 1.00e-03 - train loss: 1.38 - valid loss: 5.68, valid error: 5.90e-01
+2021-04-14 17:38:29,141 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-38-28+00
+2021-04-14 17:38:29,341 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2021-04-14 17:46:18,129 - speechbrain.utils.train_logger - INFO - Epoch: 20, lr: 1.00e-03 - train loss: 1.27 - valid loss: 3.63, valid error: 5.76e-01
+2021-04-14 17:46:18,312 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-46-18+00
+2021-04-14 17:46:18,657 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-38-28+00
+2021-04-14 17:46:18,657 - speechbrain.utils.epoch_loop - INFO - Going into epoch 21
+2021-04-14 17:53:01,529 - speechbrain.utils.train_logger - INFO - Epoch: 21, lr: 1.00e-03 - train loss: 1.18 - valid loss: 2.35, valid error: 5.73e-01
+2021-04-14 17:53:01,730 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-53-01+00
+2021-04-14 17:53:02,062 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-46-18+00
+2021-04-14 17:53:02,063 - speechbrain.utils.epoch_loop - INFO - Going into epoch 22
+2021-04-14 17:59:48,153 - speechbrain.utils.train_logger - INFO - Epoch: 22, lr: 1.00e-03 - train loss: 1.08 - valid loss: 2.50, valid error: 5.62e-01
+2021-04-14 17:59:48,310 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-59-48+00
+2021-04-14 17:59:48,684 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-31-36+00
+2021-04-14 17:59:48,707 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-53-01+00
+2021-04-14 17:59:48,707 - speechbrain.utils.epoch_loop - INFO - Going into epoch 23
+2021-04-14 18:06:31,252 - speechbrain.utils.train_logger - INFO - Epoch: 23, lr: 1.00e-03 - train loss: 9.91e-01 - valid loss: 4.37, valid error: 5.52e-01
+2021-04-14 18:06:31,462 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-06-31+00
+2021-04-14 18:06:31,734 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+17-59-48+00
+2021-04-14 18:06:31,734 - speechbrain.utils.epoch_loop - INFO - Going into epoch 24
+2021-04-14 18:13:32,145 - speechbrain.utils.train_logger - INFO - Epoch: 24, lr: 1.00e-03 - train loss: 9.12e-01 - valid loss: 4.85, valid error: 5.58e-01
+2021-04-14 18:13:32,339 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-13-32+00
+2021-04-14 18:13:32,593 - speechbrain.utils.epoch_loop - INFO - Going into epoch 25
+2021-04-14 18:20:25,296 - speechbrain.utils.train_logger - INFO - Epoch: 25, lr: 1.00e-03 - train loss: 8.40e-01 - valid loss: 2.89, valid error: 5.52e-01
+2021-04-14 18:20:25,476 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-20-25+00
+2021-04-14 18:20:25,864 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-13-32+00
+2021-04-14 18:20:25,864 - speechbrain.utils.epoch_loop - INFO - Going into epoch 26
+2021-04-14 18:27:20,705 - speechbrain.utils.train_logger - INFO - Epoch: 26, lr: 1.00e-03 - train loss: 7.64e-01 - valid loss: 4.51, valid error: 5.53e-01
+2021-04-14 18:27:20,919 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-27-20+00
+2021-04-14 18:27:21,351 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-20-25+00
+2021-04-14 18:27:21,352 - speechbrain.utils.epoch_loop - INFO - Going into epoch 27
+2021-04-14 18:35:04,478 - speechbrain.utils.train_logger - INFO - Epoch: 27, lr: 1.00e-03 - train loss: 6.83e-01 - valid loss: 2.63, valid error: 5.52e-01
+2021-04-14 18:35:04,675 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-35-04+00
+2021-04-14 18:35:05,109 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-27-20+00
+2021-04-14 18:35:05,109 - speechbrain.utils.epoch_loop - INFO - Going into epoch 28
+2021-04-14 18:43:12,864 - speechbrain.utils.train_logger - INFO - Epoch: 28, lr: 1.00e-03 - train loss: 6.33e-01 - valid loss: 7.25, valid error: 5.56e-01
+2021-04-14 18:43:13,084 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-43-12+00
+2021-04-14 18:43:13,519 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-35-04+00
+2021-04-14 18:43:13,519 - speechbrain.utils.epoch_loop - INFO - Going into epoch 29
+2021-04-14 18:50:23,701 - speechbrain.utils.train_logger - INFO - Epoch: 29, lr: 1.00e-03 - train loss: 5.69e-01 - valid loss: 2.62, valid error: 5.35e-01
+2021-04-14 18:50:23,940 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-50-23+00
+2021-04-14 18:50:24,392 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-43-12+00
+2021-04-14 18:50:24,418 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-06-31+00
+2021-04-14 18:50:24,419 - speechbrain.utils.epoch_loop - INFO - Going into epoch 30
+2021-04-14 18:57:10,872 - speechbrain.utils.train_logger - INFO - Epoch: 30, lr: 1.00e-03 - train loss: 5.29e-01 - valid loss: 2.74, valid error: 5.37e-01
+2021-04-14 18:57:11,137 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-57-10+00
+2021-04-14 18:57:11,453 - speechbrain.utils.epoch_loop - INFO - Going into epoch 31
+2021-04-14 19:03:53,117 - speechbrain.utils.train_logger - INFO - Epoch: 31, lr: 1.00e-03 - train loss: 4.62e-01 - valid loss: 3.96, valid error: 5.48e-01
+2021-04-14 19:03:53,272 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-03-53+00
+2021-04-14 19:03:53,758 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-57-10+00
+2021-04-14 19:03:53,759 - speechbrain.utils.epoch_loop - INFO - Going into epoch 32
+2021-04-14 19:10:50,169 - speechbrain.utils.train_logger - INFO - Epoch: 32, lr: 1.00e-03 - train loss: 4.35e-01 - valid loss: 2.66, valid error: 5.16e-01
+2021-04-14 19:10:50,318 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-10-50+00
+2021-04-14 19:10:50,835 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+18-50-23+00
+2021-04-14 19:10:50,858 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-03-53+00
+2021-04-14 19:10:50,858 - speechbrain.utils.epoch_loop - INFO - Going into epoch 33
+2021-04-14 19:18:00,677 - speechbrain.utils.train_logger - INFO - Epoch: 33, lr: 1.00e-03 - train loss: 4.09e-01 - valid loss: 6.85, valid error: 5.40e-01
+2021-04-14 19:18:00,816 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-18-00+00
+2021-04-14 19:18:01,169 - speechbrain.utils.epoch_loop - INFO - Going into epoch 34
+2021-04-14 19:24:51,265 - speechbrain.utils.train_logger - INFO - Epoch: 34, lr: 1.00e-03 - train loss: 3.92e-01 - valid loss: 6.01, valid error: 5.37e-01
+2021-04-14 19:24:51,474 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-24-51+00
+2021-04-14 19:24:51,981 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-18-00+00
+2021-04-14 19:24:51,982 - speechbrain.utils.epoch_loop - INFO - Going into epoch 35
+2021-04-14 19:31:43,565 - speechbrain.utils.train_logger - INFO - Epoch: 35, lr: 1.00e-03 - train loss: 3.53e-01 - valid loss: 6.18, valid error: 5.34e-01
+2021-04-14 19:31:43,760 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-31-43+00
+2021-04-14 19:31:44,289 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-24-51+00
+2021-04-14 19:31:44,289 - speechbrain.utils.epoch_loop - INFO - Going into epoch 36
+2021-04-14 19:38:32,825 - speechbrain.utils.train_logger - INFO - Epoch: 36, lr: 1.00e-03 - train loss: 3.25e-01 - valid loss: 3.07, valid error: 5.34e-01
+2021-04-14 19:38:32,987 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-38-32+00
+2021-04-14 19:38:33,540 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-31-43+00
+2021-04-14 19:38:33,547 - speechbrain.utils.epoch_loop - INFO - Going into epoch 37
+2021-04-14 19:45:17,883 - speechbrain.utils.train_logger - INFO - Epoch: 37, lr: 1.00e-03 - train loss: 3.23e-01 - valid loss: 4.52, valid error: 5.26e-01
+2021-04-14 19:45:18,087 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-45-17+00
+2021-04-14 19:45:18,652 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-38-32+00
+2021-04-14 19:45:18,652 - speechbrain.utils.epoch_loop - INFO - Going into epoch 38
+2021-04-14 19:52:06,275 - speechbrain.utils.train_logger - INFO - Epoch: 38, lr: 1.00e-03 - train loss: 2.81e-01 - valid loss: 3.45, valid error: 5.38e-01
+2021-04-14 19:52:06,569 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-52-06+00
+2021-04-14 19:52:07,180 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-45-17+00
+2021-04-14 19:52:07,180 - speechbrain.utils.epoch_loop - INFO - Going into epoch 39
+2021-04-14 19:58:58,319 - speechbrain.utils.train_logger - INFO - Epoch: 39, lr: 1.00e-03 - train loss: 2.74e-01 - valid loss: 3.82, valid error: 5.39e-01
+2021-04-14 19:58:58,550 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-58-58+00
+2021-04-14 19:58:59,146 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-52-06+00
+2021-04-14 19:58:59,147 - speechbrain.utils.epoch_loop - INFO - Going into epoch 40
+2021-04-14 20:05:44,740 - speechbrain.utils.train_logger - INFO - Epoch: 40, lr: 1.00e-03 - train loss: 2.59e-01 - valid loss: 3.43, valid error: 5.21e-01
+2021-04-14 20:05:44,962 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-05-44+00
+2021-04-14 20:05:45,571 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-58-58+00
+2021-04-14 20:05:45,572 - speechbrain.utils.epoch_loop - INFO - Going into epoch 41
+2021-04-14 20:12:31,258 - speechbrain.utils.train_logger - INFO - Epoch: 41, lr: 1.00e-03 - train loss: 2.59e-01 - valid loss: 3.12, valid error: 5.19e-01
+2021-04-14 20:12:31,399 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-12-31+00
+2021-04-14 20:12:32,019 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-05-44+00
+2021-04-14 20:12:32,020 - speechbrain.utils.epoch_loop - INFO - Going into epoch 42
+2021-04-14 20:19:23,286 - speechbrain.utils.train_logger - INFO - Epoch: 42, lr: 1.00e-03 - train loss: 2.38e-01 - valid loss: 5.09, valid error: 5.17e-01
+2021-04-14 20:19:23,506 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-19-23+00
+2021-04-14 20:19:24,145 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-12-31+00
+2021-04-14 20:19:24,146 - speechbrain.utils.epoch_loop - INFO - Going into epoch 43
+2021-04-14 20:26:25,398 - speechbrain.utils.train_logger - INFO - Epoch: 43, lr: 1.00e-03 - train loss: 2.28e-01 - valid loss: 4.27, valid error: 5.09e-01
+2021-04-14 20:26:25,579 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-26-25+00
+2021-04-14 20:26:26,230 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+19-10-50+00
+2021-04-14 20:26:26,255 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-19-23+00
+2021-04-14 20:26:26,256 - speechbrain.utils.epoch_loop - INFO - Going into epoch 44
+2021-04-14 20:33:12,988 - speechbrain.utils.train_logger - INFO - Epoch: 44, lr: 1.00e-03 - train loss: 2.22e-01 - valid loss: 4.48, valid error: 5.23e-01
+2021-04-14 20:33:13,223 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-33-12+00
+2021-04-14 20:33:13,687 - speechbrain.utils.epoch_loop - INFO - Going into epoch 45
+2021-04-14 20:39:58,786 - speechbrain.utils.train_logger - INFO - Epoch: 45, lr: 1.00e-03 - train loss: 2.10e-01 - valid loss: 3.45, valid error: 5.11e-01
+2021-04-14 20:39:59,013 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-39-58+00
+2021-04-14 20:39:59,723 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-33-12+00
+2021-04-14 20:39:59,724 - speechbrain.utils.epoch_loop - INFO - Going into epoch 46
+2021-04-14 20:46:43,408 - speechbrain.utils.train_logger - INFO - Epoch: 46, lr: 1.00e-03 - train loss: 2.01e-01 - valid loss: 4.71, valid error: 5.05e-01
+2021-04-14 20:46:43,594 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-46-43+00
+2021-04-14 20:46:44,271 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-26-25+00
+2021-04-14 20:46:44,294 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-39-58+00
+2021-04-14 20:46:44,295 - speechbrain.utils.epoch_loop - INFO - Going into epoch 47
+2021-04-14 20:54:18,933 - speechbrain.utils.train_logger - INFO - Epoch: 47, lr: 1.00e-03 - train loss: 2.06e-01 - valid loss: 3.78, valid error: 5.19e-01
+2021-04-14 20:54:19,205 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-54-18+00
+2021-04-14 20:54:19,687 - speechbrain.utils.epoch_loop - INFO - Going into epoch 48
+2021-04-14 21:01:09,141 - speechbrain.utils.train_logger - INFO - Epoch: 48, lr: 1.00e-03 - train loss: 1.88e-01 - valid loss: 3.95, valid error: 5.10e-01
+2021-04-14 21:01:09,355 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+21-01-09+00
+2021-04-14 21:01:10,075 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-54-18+00
+2021-04-14 21:01:10,075 - speechbrain.utils.epoch_loop - INFO - Going into epoch 49
+2021-04-14 21:07:56,924 - speechbrain.utils.train_logger - INFO - Epoch: 49, lr: 1.00e-03 - train loss: 1.87e-01 - valid loss: 3.57, valid error: 5.30e-01
+2021-04-14 21:07:57,078 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+21-07-56+00
+2021-04-14 21:07:57,861 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+21-01-09+00
+2021-04-14 21:07:57,862 - speechbrain.utils.epoch_loop - INFO - Going into epoch 50
+2021-04-14 21:15:10,588 - speechbrain.utils.train_logger - INFO - Epoch: 50, lr: 1.00e-03 - train loss: 1.79e-01 - valid loss: 3.43, valid error: 4.98e-01
+2021-04-14 21:15:10,760 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+21-15-10+00
+2021-04-14 21:15:11,523 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+20-46-43+00
+2021-04-14 21:15:11,547 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+21-07-56+00
+2021-04-14 21:15:11,552 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+21-15-10+00
+2021-04-14 21:15:11,597 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-14 21:15:43,150 - speechbrain.utils.train_logger - INFO - Epoch loaded: 50 - test loss: 3.28, test error: 5.32e-01
+2021-04-14 21:15:43,151 - __main__ - INFO - 	Predicting for train dataset..
+2021-04-14 21:15:43,156 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+21-15-10+00
+2021-04-14 21:15:43,198 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-14 21:17:44,001 - __main__ - INFO - 	Predictions file created at /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/train_predictions.csv
+2021-04-14 21:17:44,004 - __main__ - INFO - 	Predicting for dev dataset..
+2021-04-14 21:17:44,010 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/CKPT+2021-04-14+21-15-10+00
+2021-04-14 21:17:44,056 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-14 21:18:15,168 - __main__ - INFO - 	Predictions file created at /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_FLAT_SFTMAX/save/dev_predictions.csv
