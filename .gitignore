@@ -1,5 +1,5 @@
 # identifier extensions
-*.so
+*.Identifier
 
 # optimizer files
 *optimizer.ckpt
