@@ -1,0 +1,466 @@
+2021-04-15 18:34:18,572 - speechbrain.core - INFO - Beginning experiment!
+2021-04-15 18:34:18,572 - speechbrain.core - INFO - Experiment folder: /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF
+2021-04-15 18:34:18,957 - speechbrain.utils.superpowers - DEBUG - adal @ file:///home/conda/feedstock_root/build_artifacts/adal_1617781612176/work
+aiohttp @ file:///home/conda/feedstock_root/build_artifacts/aiohttp_1614280873252/work
+ansiwrap==0.8.4
+appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+argon2-cffi @ file:///home/conda/feedstock_root/build_artifacts/argon2-cffi_1610522577486/work
+arrow @ file:///home/conda/feedstock_root/build_artifacts/arrow_1615160178958/work
+asn1crypto @ file:///home/conda/feedstock_root/build_artifacts/asn1crypto_1595949944546/work
+async-generator==1.10
+async-timeout==3.0.1
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+binaryornot==0.4.4
+black==19.10b0
+bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1612213472466/work
+blinker==1.4
+brotlipy==0.7.0
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1611555765219/work
+caip-notebooks-serverextension @ file:///opt/conda/conda-bld/dlenv-base_1618276247652/work/packages/server_extension
+certifi==2020.12.5
+cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1613413867554/work
+cfgv==3.2.0
+chardet @ file:///home/conda/feedstock_root/build_artifacts/chardet_1610093487176/work
+click==7.1.2
+cloudpickle @ file:///home/conda/feedstock_root/build_artifacts/cloudpickle_1598400192773/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1602866480661/work
+conda==4.9.2
+conda-package-handling @ file:///home/conda/feedstock_root/build_artifacts/conda-package-handling_1618231393684/work
+confuse @ file:///home/conda/feedstock_root/build_artifacts/confuse_1605988134315/work
+cookiecutter==1.7.2
+cryptography @ file:///home/conda/feedstock_root/build_artifacts/cryptography_1616851478755/work
+cycler==0.10.0
+decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1617865139205/work
+defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+distlib==0.3.1
+docker @ file:///home/conda/feedstock_root/build_artifacts/docker-py_1617755742617/work
+docker-pycreds==0.4.0
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
+filelock==3.0.12
+flake8==3.7.9
+fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1617653061106/work
+gcsfs @ file:///home/conda/feedstock_root/build_artifacts/gcsfs_1618251324500/work
+gdown==3.12.2
+gitdb @ file:///home/conda/feedstock_root/build_artifacts/gitdb_1616781027402/work
+GitPython @ file:///home/conda/feedstock_root/build_artifacts/gitpython_1614496354236/work
+google-api-core @ file:///home/conda/feedstock_root/build_artifacts/google-api-core-split_1616709747968/work
+google-api-python-client @ file:///home/conda/feedstock_root/build_artifacts/google-api-python-client_1617642777040/work
+google-auth @ file:///home/conda/feedstock_root/build_artifacts/google-auth_1617123880036/work
+google-auth-httplib2 @ file:///home/conda/feedstock_root/build_artifacts/google-auth-httplib2_1617387471894/work
+google-auth-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/google-auth-oauthlib_1616710401691/work
+google-cloud-bigquery==2.13.1
+google-cloud-bigquery-storage==2.4.0
+google-cloud-bigtable==2.0.0
+google-cloud-core==1.6.0
+google-cloud-dataproc==2.3.1
+google-cloud-datastore==2.1.0
+google-cloud-firestore==2.1.0
+google-cloud-kms==2.2.0
+google-cloud-language==2.0.0
+google-cloud-logging==2.3.1
+google-cloud-monitoring==2.2.1
+google-cloud-pubsub==1.7.0
+google-cloud-scheduler==2.2.0
+google-cloud-spanner==3.3.0
+google-cloud-speech==2.2.1
+google-cloud-storage==1.37.1
+google-cloud-tasks==2.2.0
+google-cloud-translate==3.1.0
+google-cloud-videointelligence==2.1.0
+google-cloud-vision==2.3.0
+google-crc32c==1.1.2
+google-resumable-media==1.2.0
+googleapis-common-protos @ file:///home/conda/feedstock_root/build_artifacts/googleapis-common-protos-feedstock_1616710767141/work
+greenlet @ file:///home/conda/feedstock_root/build_artifacts/greenlet_1615997408262/work
+grpc-google-iam-v1==0.12.3
+grpcio @ file:///home/conda/feedstock_root/build_artifacts/grpcio_1617837744887/work
+grpcio-gcp @ file:///home/conda/feedstock_root/build_artifacts/grpcio-gcp_1604414757985/work
+htmlmin==0.1.12
+httplib2 @ file:///home/conda/feedstock_root/build_artifacts/httplib2_1617134439639/work
+huggingface-hub==0.0.8
+HyperPyYAML==1.0.0
+identify==2.2.3
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+ImageHash @ file:///home/conda/feedstock_root/build_artifacts/imagehash_1605809872811/work
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1618291672662/work
+ipykernel @ file:///home/conda/feedstock_root/build_artifacts/ipykernel_1617137062993/work/dist/ipykernel-5.5.3-py3-none-any.whl
+ipython @ file:///home/conda/feedstock_root/build_artifacts/ipython_1616836846469/work
+ipython-genutils==0.2.0
+ipython-sql @ file:///home/conda/feedstock_root/build_artifacts/ipython-sql_1602667927030/work
+ipywidgets @ file:///home/conda/feedstock_root/build_artifacts/ipywidgets_1609995587151/work
+jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1610146791823/work
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1612119311452/work
+jinja2-time==0.2.0
+joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1612898609989/work
+json5 @ file:///home/conda/feedstock_root/build_artifacts/json5_1600692310011/work
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1614815863336/work
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1615693636836/work
+jupyter-core @ file:///home/conda/feedstock_root/build_artifacts/jupyter_core_1612125257337/work
+jupyter-http-over-ws==0.0.8
+jupyterlab==1.2.16
+jupyterlab-git @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab-git_1598805204722/work
+jupyterlab-pygments @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_pygments_1601375948261/work
+jupyterlab-server @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_server_1593951277307/work
+jupyterlab-widgets @ file:///home/conda/feedstock_root/build_artifacts/jupyterlab_widgets_1609173350931/work
+kiwisolver @ file:///home/conda/feedstock_root/build_artifacts/kiwisolver_1610099773791/work
+kubernetes @ file:///home/conda/feedstock_root/build_artifacts/python-kubernetes_1605253606169/work
+libcst==0.3.18
+llvmlite==0.36.0
+Markdown @ file:///home/conda/feedstock_root/build_artifacts/markdown_1614595805172/work
+MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1610127564475/work
+matplotlib @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-suite_1617212792183/work
+mccabe==0.6.1
+missingno==0.4.2
+mistune @ file:///home/conda/feedstock_root/build_artifacts/mistune_1610112870915/work
+more-itertools==8.7.0
+multidict @ file:///home/conda/feedstock_root/build_artifacts/multidict_1610319002430/work
+mypy-extensions @ file:///home/conda/feedstock_root/build_artifacts/mypy_extensions_1610127163566/work
+nb-conda @ file:///home/conda/feedstock_root/build_artifacts/nb_conda_1611345550379/work
+nb-conda-kernels @ file:///home/conda/feedstock_root/build_artifacts/nb_conda_kernels_1606762466752/work
+nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1614336084111/work
+nbconvert @ file:///home/conda/feedstock_root/build_artifacts/nbconvert_1605401831777/work
+nbdime @ file:///home/conda/feedstock_root/build_artifacts/nbdime_1601645814261/work
+nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1617383142101/work
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1617163391303/work
+networkx @ file:///home/conda/feedstock_root/build_artifacts/networkx_1598210780226/work
+nodeenv==1.6.0
+notebook @ file:///home/conda/feedstock_root/build_artifacts/notebook_1616419147696/work
+notebook-executor @ file:///opt/conda/conda-bld/dlenv-base_1618276247652/work/packages/notebook_executor
+numba @ file:///home/conda/feedstock_root/build_artifacts/numba_1616707886433/work
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1610324536371/work
+oauthlib==3.0.1
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
+pandas==1.2.4
+pandas-profiling @ file:///home/conda/feedstock_root/build_artifacts/pandas-profiling_1613839428900/work
+pandocfilters==1.4.2
+papermill @ file:///home/conda/feedstock_root/build_artifacts/papermill_1615479738199/work
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1617148930513/work
+pathspec @ file:///home/conda/feedstock_root/build_artifacts/pathspec_1605120834673/work
+patsy==0.5.1
+pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1602535608087/work
+phik @ file:///home/conda/feedstock_root/build_artifacts/phik_1615724006677/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow @ file:///home/conda/feedstock_root/build_artifacts/pillow_1617818063550/work
+pluggy==0.13.1
+poyo==0.5.0
+pre-commit==2.12.0
+prettytable @ file:///home/conda/feedstock_root/build_artifacts/prettytable_1614725168556/work
+prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1617909193315/work
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1616432837031/work
+proto-plus==1.18.1
+protobuf==3.15.8
+psutil==5.8.0
+ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+py==1.10.0
+pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.7
+pycodestyle==2.5.0
+pycosat @ file:///home/conda/feedstock_root/build_artifacts/pycosat_1610094791171/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyflakes==2.1.1
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1615243893546/work
+PyJWT @ file:///home/conda/feedstock_root/build_artifacts/pyjwt_1617199158555/work
+pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1608055815057/work
+pyparsing==2.4.7
+pyrsistent @ file:///home/conda/feedstock_root/build_artifacts/pyrsistent_1610146801408/work
+PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1610291444829/work
+pytest==5.4.1
+python-dateutil==2.8.1
+python-slugify @ file:///home/conda/feedstock_root/build_artifacts/python-slugify_1593573453419/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1612179539967/work
+PyWavelets @ file:///home/conda/feedstock_root/build_artifacts/pywavelets_1607290802651/work
+PyYAML==5.4.1
+pyzmq @ file:///home/conda/feedstock_root/build_artifacts/pyzmq_1614611717789/work
+regex @ file:///home/conda/feedstock_root/build_artifacts/regex_1617644420360/work
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1608156231189/work
+requests-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/requests-oauthlib_1595492159598/work
+retrying==1.3.3
+rsa @ file:///home/conda/feedstock_root/build_artifacts/rsa_1614171254180/work
+ruamel-yaml-conda @ file:///home/conda/feedstock_root/build_artifacts/ruamel_yaml_1611943443937/work
+ruamel.yaml==0.17.4
+ruamel.yaml.clib==0.2.2
+scikit-learn @ file:///home/conda/feedstock_root/build_artifacts/scikit-learn_1611079729065/work
+scipy @ file:///home/conda/feedstock_root/build_artifacts/scipy_1616878678759/work
+seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1611834504644/work
+Send2Trash==1.5.0
+sentencepiece==0.1.95
+simplejson @ file:///home/conda/feedstock_root/build_artifacts/simplejson_1610147090454/work
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
+smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1611376390914/work
+-e git+git@github.com:mravanelli-mila/speechbrain_multiling.git@056cfdfca29544bf0514240443e10941278b6cdb#egg=SpeechBrain
+SQLAlchemy @ file:///home/conda/feedstock_root/build_artifacts/sqlalchemy_1617994944738/work
+sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1602142927465/work
+statsmodels @ file:///home/conda/feedstock_root/build_artifacts/statsmodels_1612273600586/work
+tangled-up-in-unicode @ file:///home/conda/feedstock_root/build_artifacts/tangled-up-in-unicode_1615712185579/work
+tenacity @ file:///home/conda/feedstock_root/build_artifacts/tenacity_1614801055552/work
+terminado @ file:///home/conda/feedstock_root/build_artifacts/terminado_1617048648819/work
+testpath==0.4.4
+text-unidecode==1.3
+textwrap3==0.9.2
+threadpoolctl @ file:///tmp/tmp79xdzxkt/threadpoolctl-2.1.0-py3-none-any.whl
+toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1604308577558/work
+torch==1.7.1
+torchaudio==0.7.2
+torchvision==0.9.0+cu111
+tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1610094704591/work
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1617680194207/work
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1602771532708/work
+typed-ast @ file:///home/conda/feedstock_root/build_artifacts/typed-ast_1618337592858/work
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+typing-inspect==0.6.0
+ujson @ file:///home/conda/feedstock_root/build_artifacts/ujson_1611250187793/work
+Unidecode @ file:///home/conda/feedstock_root/build_artifacts/unidecode_1612533191922/work
+uritemplate==3.0.1
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1615828766818/work
+virtualenv==20.4.3
+visions @ file:///home/conda/feedstock_root/build_artifacts/visions_1600915384170/work
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+websocket-client @ file:///home/conda/feedstock_root/build_artifacts/websocket-client_1610127652206/work
+whichcraft==0.6.1
+widgetsnbextension @ file:///home/conda/feedstock_root/build_artifacts/widgetsnbextension_1605475530234/work
+wrapt @ file:///home/conda/feedstock_root/build_artifacts/wrapt_1610094880759/work
+yamllint==1.23.0
+yarl @ file:///home/conda/feedstock_root/build_artifacts/yarl_1610354142409/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1614945704755/work
+
+
+2021-04-15 18:34:18,964 - speechbrain.utils.superpowers - DEBUG - 056cfdfc
+
+
+2021-04-15 18:34:19,647 - common_voice_lid_prepare - INFO - 45 languages detected!
+2021-04-15 18:34:19,976 - common_voice_lid_prepare - INFO - Data successfully split!
+2021-04-15 18:34:19,977 - common_voice_lid_prepare - INFO - Creating csv lists in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/train.csv ...
+2021-04-15 18:34:21,186 - common_voice_lid_prepare - INFO - /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/train.csv sucessfully created!
+2021-04-15 18:34:21,186 - common_voice_lid_prepare - INFO - Number of samples: 22196 
+2021-04-15 18:34:21,187 - common_voice_lid_prepare - INFO - Total duration: 30.04 Hours
+2021-04-15 18:34:21,190 - common_voice_lid_prepare - INFO - Creating csv lists in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/dev.csv ...
+2021-04-15 18:34:21,496 - common_voice_lid_prepare - INFO - /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/dev.csv sucessfully created!
+2021-04-15 18:34:21,496 - common_voice_lid_prepare - INFO - Number of samples: 5888 
+2021-04-15 18:34:21,496 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-15 18:34:21,497 - common_voice_lid_prepare - INFO - Creating csv lists in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/test.csv ...
+2021-04-15 18:34:21,800 - common_voice_lid_prepare - INFO - /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/test.csv sucessfully created!
+2021-04-15 18:34:21,800 - common_voice_lid_prepare - INFO - Number of samples: 5963 
+2021-04-15 18:34:21,800 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-15 18:34:22,112 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/language_family_encoder.txt, but file doesn't exist yet.
+2021-04-15 18:34:22,229 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-15 18:34:22,230 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/language_family_encoder.txt
+2021-04-15 18:34:22,230 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/language_name_encoder.txt, but file doesn't exist yet.
+2021-04-15 18:34:22,519 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-15 18:34:22,520 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/language_name_encoder.txt
+2021-04-15 18:34:22,521 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-04-15 18:34:25,438 - speechbrain.core - INFO - 4.5M trainable parameters in LID
+2021-04-15 18:34:25,439 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-04-15 18:34:25,440 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-04-15 18:36:18,976 - speechbrain.utils.train_logger - INFO - Epoch: 1, lr: 1.00e-03 - train loss: 6.60 - valid loss: 6.79, valid error: 9.44e-01
+2021-04-15 18:36:19,079 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-36-18+00
+2021-04-15 18:36:19,083 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2021-04-15 18:38:12,339 - speechbrain.utils.train_logger - INFO - Epoch: 2, lr: 1.00e-03 - train loss: 6.11 - valid loss: 6.55, valid error: 8.79e-01
+2021-04-15 18:38:12,432 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-38-12+00
+2021-04-15 18:38:12,446 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-36-18+00
+2021-04-15 18:38:12,446 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2021-04-15 18:40:04,351 - speechbrain.utils.train_logger - INFO - Epoch: 3, lr: 1.00e-03 - train loss: 5.82 - valid loss: 6.10, valid error: 8.56e-01
+2021-04-15 18:40:04,450 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-40-04+00
+2021-04-15 18:40:04,468 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-38-12+00
+2021-04-15 18:40:04,468 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2021-04-15 18:41:56,420 - speechbrain.utils.train_logger - INFO - Epoch: 4, lr: 1.00e-03 - train loss: 5.53 - valid loss: 5.84, valid error: 8.55e-01
+2021-04-15 18:41:56,517 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-41-56+00
+2021-04-15 18:41:56,537 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-40-04+00
+2021-04-15 18:41:56,537 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2021-04-15 18:43:48,241 - speechbrain.utils.train_logger - INFO - Epoch: 5, lr: 1.00e-03 - train loss: 5.29 - valid loss: 6.09, valid error: 8.43e-01
+2021-04-15 18:43:48,336 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-43-48+00
+2021-04-15 18:43:48,358 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-41-56+00
+2021-04-15 18:43:48,358 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2021-04-15 18:45:40,045 - speechbrain.utils.train_logger - INFO - Epoch: 6, lr: 1.00e-03 - train loss: 5.05 - valid loss: 5.44, valid error: 7.98e-01
+2021-04-15 18:45:40,144 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-45-40+00
+2021-04-15 18:45:40,169 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-43-48+00
+2021-04-15 18:45:40,170 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2021-04-15 18:47:29,631 - speechbrain.utils.train_logger - INFO - Epoch: 7, lr: 1.00e-03 - train loss: 4.77 - valid loss: 7.71, valid error: 7.72e-01
+2021-04-15 18:47:29,720 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-47-29+00
+2021-04-15 18:47:29,746 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-45-40+00
+2021-04-15 18:47:29,746 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2021-04-15 18:49:18,064 - speechbrain.utils.train_logger - INFO - Epoch: 8, lr: 1.00e-03 - train loss: 4.52 - valid loss: 7.84, valid error: 7.48e-01
+2021-04-15 18:49:18,156 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-49-18+00
+2021-04-15 18:49:18,184 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-47-29+00
+2021-04-15 18:49:18,185 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2021-04-15 18:51:05,876 - speechbrain.utils.train_logger - INFO - Epoch: 9, lr: 1.00e-03 - train loss: 4.25 - valid loss: 4.73, valid error: 7.22e-01
+2021-04-15 18:51:05,967 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-51-05+00
+2021-04-15 18:51:06,000 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-49-18+00
+2021-04-15 18:51:06,000 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2021-04-15 18:52:53,338 - speechbrain.utils.train_logger - INFO - Epoch: 10, lr: 1.00e-03 - train loss: 3.99 - valid loss: 9.69, valid error: 7.00e-01
+2021-04-15 18:52:53,433 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-52-53+00
+2021-04-15 18:52:53,470 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-51-05+00
+2021-04-15 18:52:53,471 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2021-04-15 18:54:40,833 - speechbrain.utils.train_logger - INFO - Epoch: 11, lr: 1.00e-03 - train loss: 3.76 - valid loss: 18.03, valid error: 6.67e-01
+2021-04-15 18:54:40,921 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-54-40+00
+2021-04-15 18:54:40,956 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-52-53+00
+2021-04-15 18:54:40,957 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2021-04-15 18:56:28,617 - speechbrain.utils.train_logger - INFO - Epoch: 12, lr: 1.00e-03 - train loss: 3.54 - valid loss: 6.01, valid error: 6.63e-01
+2021-04-15 18:56:28,704 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-56-28+00
+2021-04-15 18:56:28,742 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-54-40+00
+2021-04-15 18:56:28,742 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2021-04-15 18:58:16,389 - speechbrain.utils.train_logger - INFO - Epoch: 13, lr: 1.00e-03 - train loss: 3.31 - valid loss: 21.95, valid error: 6.52e-01
+2021-04-15 18:58:16,480 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-58-16+00
+2021-04-15 18:58:16,522 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-56-28+00
+2021-04-15 18:58:16,522 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2021-04-15 19:00:04,290 - speechbrain.utils.train_logger - INFO - Epoch: 14, lr: 1.00e-03 - train loss: 3.09 - valid loss: 7.31, valid error: 6.40e-01
+2021-04-15 19:00:04,382 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-00-04+00
+2021-04-15 19:00:04,426 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+18-58-16+00
+2021-04-15 19:00:04,426 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2021-04-15 19:01:51,924 - speechbrain.utils.train_logger - INFO - Epoch: 15, lr: 1.00e-03 - train loss: 2.88 - valid loss: 4.82, valid error: 6.09e-01
+2021-04-15 19:01:52,014 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-01-51+00
+2021-04-15 19:01:52,060 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-00-04+00
+2021-04-15 19:01:52,060 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2021-04-15 19:03:38,872 - speechbrain.utils.train_logger - INFO - Epoch: 16, lr: 1.00e-03 - train loss: 2.68 - valid loss: 4.27, valid error: 6.22e-01
+2021-04-15 19:03:38,962 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-03-38+00
+2021-04-15 19:03:39,004 - speechbrain.utils.epoch_loop - INFO - Going into epoch 17
+2021-04-15 19:05:25,262 - speechbrain.utils.train_logger - INFO - Epoch: 17, lr: 1.00e-03 - train loss: 2.48 - valid loss: 7.29, valid error: 5.91e-01
+2021-04-15 19:05:25,351 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-05-25+00
+2021-04-15 19:05:25,422 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-01-51+00
+2021-04-15 19:05:25,427 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-03-38+00
+2021-04-15 19:05:25,428 - speechbrain.utils.epoch_loop - INFO - Going into epoch 18
+2021-04-15 19:07:12,100 - speechbrain.utils.train_logger - INFO - Epoch: 18, lr: 1.00e-03 - train loss: 2.31 - valid loss: 5.05, valid error: 6.08e-01
+2021-04-15 19:07:12,191 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-07-12+00
+2021-04-15 19:07:12,238 - speechbrain.utils.epoch_loop - INFO - Going into epoch 19
+2021-04-15 19:08:58,833 - speechbrain.utils.train_logger - INFO - Epoch: 19, lr: 1.00e-03 - train loss: 2.11 - valid loss: 5.60, valid error: 5.96e-01
+2021-04-15 19:08:58,919 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-08-58+00
+2021-04-15 19:08:58,999 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-07-12+00
+2021-04-15 19:08:58,999 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2021-04-15 19:10:45,293 - speechbrain.utils.train_logger - INFO - Epoch: 20, lr: 1.00e-03 - train loss: 1.92 - valid loss: 5.28, valid error: 6.07e-01
+2021-04-15 19:10:45,381 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-10-45+00
+2021-04-15 19:10:45,461 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-08-58+00
+2021-04-15 19:10:45,462 - speechbrain.utils.epoch_loop - INFO - Going into epoch 21
+2021-04-15 19:12:31,669 - speechbrain.utils.train_logger - INFO - Epoch: 21, lr: 1.00e-03 - train loss: 1.77 - valid loss: 4.57, valid error: 5.96e-01
+2021-04-15 19:12:31,758 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-12-31+00
+2021-04-15 19:12:31,841 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-10-45+00
+2021-04-15 19:12:31,842 - speechbrain.utils.epoch_loop - INFO - Going into epoch 22
+2021-04-15 19:14:18,350 - speechbrain.utils.train_logger - INFO - Epoch: 22, lr: 1.00e-03 - train loss: 1.64 - valid loss: 4.45, valid error: 5.78e-01
+2021-04-15 19:14:18,441 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-14-18+00
+2021-04-15 19:14:18,529 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-05-25+00
+2021-04-15 19:14:18,534 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-12-31+00
+2021-04-15 19:14:18,534 - speechbrain.utils.epoch_loop - INFO - Going into epoch 23
+2021-04-15 19:16:04,631 - speechbrain.utils.train_logger - INFO - Epoch: 23, lr: 1.00e-03 - train loss: 1.48 - valid loss: 7.17, valid error: 5.53e-01
+2021-04-15 19:16:04,721 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-16-04+00
+2021-04-15 19:16:04,784 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-14-18+00
+2021-04-15 19:16:04,784 - speechbrain.utils.epoch_loop - INFO - Going into epoch 24
+2021-04-15 19:17:49,873 - speechbrain.utils.train_logger - INFO - Epoch: 24, lr: 1.00e-03 - train loss: 1.36 - valid loss: 6.55, valid error: 5.72e-01
+2021-04-15 19:17:49,961 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-17-49+00
+2021-04-15 19:17:50,023 - speechbrain.utils.epoch_loop - INFO - Going into epoch 25
+2021-04-15 19:19:34,504 - speechbrain.utils.train_logger - INFO - Epoch: 25, lr: 1.00e-03 - train loss: 1.25 - valid loss: 4.60, valid error: 5.65e-01
+2021-04-15 19:19:34,591 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-19-34+00
+2021-04-15 19:19:34,689 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-17-49+00
+2021-04-15 19:19:34,689 - speechbrain.utils.epoch_loop - INFO - Going into epoch 26
+2021-04-15 19:21:18,936 - speechbrain.utils.train_logger - INFO - Epoch: 26, lr: 1.00e-03 - train loss: 1.15 - valid loss: 5.51, valid error: 5.80e-01
+2021-04-15 19:21:19,022 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-21-18+00
+2021-04-15 19:21:19,124 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-19-34+00
+2021-04-15 19:21:19,124 - speechbrain.utils.epoch_loop - INFO - Going into epoch 27
+2021-04-15 19:23:02,147 - speechbrain.utils.train_logger - INFO - Epoch: 27, lr: 1.00e-03 - train loss: 1.06 - valid loss: 6.84, valid error: 5.58e-01
+2021-04-15 19:23:02,234 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-23-02+00
+2021-04-15 19:23:02,338 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-21-18+00
+2021-04-15 19:23:02,338 - speechbrain.utils.epoch_loop - INFO - Going into epoch 28
+2021-04-15 19:24:45,052 - speechbrain.utils.train_logger - INFO - Epoch: 28, lr: 1.00e-03 - train loss: 9.84e-01 - valid loss: 5.43, valid error: 5.78e-01
+2021-04-15 19:24:45,148 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-24-45+00
+2021-04-15 19:24:45,273 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-23-02+00
+2021-04-15 19:24:45,274 - speechbrain.utils.epoch_loop - INFO - Going into epoch 29
+2021-04-15 19:26:28,385 - speechbrain.utils.train_logger - INFO - Epoch: 29, lr: 1.00e-03 - train loss: 9.08e-01 - valid loss: 4.78, valid error: 5.42e-01
+2021-04-15 19:26:28,471 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-26-28+00
+2021-04-15 19:26:28,584 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-24-45+00
+2021-04-15 19:26:28,589 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-16-04+00
+2021-04-15 19:26:28,589 - speechbrain.utils.epoch_loop - INFO - Going into epoch 30
+2021-04-15 19:28:11,243 - speechbrain.utils.train_logger - INFO - Epoch: 30, lr: 1.00e-03 - train loss: 8.59e-01 - valid loss: 5.56, valid error: 5.61e-01
+2021-04-15 19:28:11,329 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-28-11+00
+2021-04-15 19:28:11,405 - speechbrain.utils.epoch_loop - INFO - Going into epoch 31
+2021-04-15 19:29:54,064 - speechbrain.utils.train_logger - INFO - Epoch: 31, lr: 1.00e-03 - train loss: 8.11e-01 - valid loss: 6.99, valid error: 5.61e-01
+2021-04-15 19:29:54,151 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-29-54+00
+2021-04-15 19:29:54,270 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-28-11+00
+2021-04-15 19:29:54,270 - speechbrain.utils.epoch_loop - INFO - Going into epoch 32
+2021-04-15 19:31:37,106 - speechbrain.utils.train_logger - INFO - Epoch: 32, lr: 1.00e-03 - train loss: 7.67e-01 - valid loss: 8.13, valid error: 5.58e-01
+2021-04-15 19:31:37,195 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-31-37+00
+2021-04-15 19:31:37,316 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-29-54+00
+2021-04-15 19:31:37,317 - speechbrain.utils.epoch_loop - INFO - Going into epoch 33
+2021-04-15 19:33:20,079 - speechbrain.utils.train_logger - INFO - Epoch: 33, lr: 1.00e-03 - train loss: 7.24e-01 - valid loss: 6.54, valid error: 5.65e-01
+2021-04-15 19:33:20,166 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-33-20+00
+2021-04-15 19:33:20,292 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-31-37+00
+2021-04-15 19:33:20,292 - speechbrain.utils.epoch_loop - INFO - Going into epoch 34
+2021-04-15 19:35:02,467 - speechbrain.utils.train_logger - INFO - Epoch: 34, lr: 1.00e-03 - train loss: 6.66e-01 - valid loss: 5.69, valid error: 5.42e-01
+2021-04-15 19:35:02,552 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-35-02+00
+2021-04-15 19:35:02,681 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-33-20+00
+2021-04-15 19:35:02,686 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-26-28+00
+2021-04-15 19:35:02,686 - speechbrain.utils.epoch_loop - INFO - Going into epoch 35
+2021-04-15 19:36:45,057 - speechbrain.utils.train_logger - INFO - Epoch: 35, lr: 1.00e-03 - train loss: 6.41e-01 - valid loss: 8.75, valid error: 5.61e-01
+2021-04-15 19:36:45,143 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-36-45+00
+2021-04-15 19:36:45,231 - speechbrain.utils.epoch_loop - INFO - Going into epoch 36
+2021-04-15 19:38:27,565 - speechbrain.utils.train_logger - INFO - Epoch: 36, lr: 1.00e-03 - train loss: 6.16e-01 - valid loss: 5.81, valid error: 5.48e-01
+2021-04-15 19:38:27,650 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-38-27+00
+2021-04-15 19:38:27,787 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-36-45+00
+2021-04-15 19:38:27,787 - speechbrain.utils.epoch_loop - INFO - Going into epoch 37
+2021-04-15 19:40:10,119 - speechbrain.utils.train_logger - INFO - Epoch: 37, lr: 1.00e-03 - train loss: 5.89e-01 - valid loss: 5.98, valid error: 5.47e-01
+2021-04-15 19:40:10,205 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-40-10+00
+2021-04-15 19:40:10,343 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-38-27+00
+2021-04-15 19:40:10,344 - speechbrain.utils.epoch_loop - INFO - Going into epoch 38
+2021-04-15 19:41:53,196 - speechbrain.utils.train_logger - INFO - Epoch: 38, lr: 1.00e-03 - train loss: 5.55e-01 - valid loss: 8.04, valid error: 5.47e-01
+2021-04-15 19:41:53,282 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-41-53+00
+2021-04-15 19:41:53,426 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-40-10+00
+2021-04-15 19:41:53,426 - speechbrain.utils.epoch_loop - INFO - Going into epoch 39
+2021-04-15 19:43:37,228 - speechbrain.utils.train_logger - INFO - Epoch: 39, lr: 1.00e-03 - train loss: 5.27e-01 - valid loss: 6.64, valid error: 5.60e-01
+2021-04-15 19:43:37,315 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-43-37+00
+2021-04-15 19:43:37,460 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-41-53+00
+2021-04-15 19:43:37,461 - speechbrain.utils.epoch_loop - INFO - Going into epoch 40
+2021-04-15 19:45:21,598 - speechbrain.utils.train_logger - INFO - Epoch: 40, lr: 1.00e-03 - train loss: 5.27e-01 - valid loss: 7.91, valid error: 5.48e-01
+2021-04-15 19:45:21,689 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-45-21+00
+2021-04-15 19:45:21,843 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-43-37+00
+2021-04-15 19:45:21,843 - speechbrain.utils.epoch_loop - INFO - Going into epoch 41
+2021-04-15 19:47:07,259 - speechbrain.utils.train_logger - INFO - Epoch: 41, lr: 1.00e-03 - train loss: 4.65e-01 - valid loss: 6.31, valid error: 5.49e-01
+2021-04-15 19:47:07,346 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-47-07+00
+2021-04-15 19:47:07,499 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-45-21+00
+2021-04-15 19:47:07,499 - speechbrain.utils.epoch_loop - INFO - Going into epoch 42
+2021-04-15 19:48:52,035 - speechbrain.utils.train_logger - INFO - Epoch: 42, lr: 1.00e-03 - train loss: 4.47e-01 - valid loss: 7.79, valid error: 5.55e-01
+2021-04-15 19:48:52,124 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-48-52+00
+2021-04-15 19:48:52,282 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-47-07+00
+2021-04-15 19:48:52,282 - speechbrain.utils.epoch_loop - INFO - Going into epoch 43
+2021-04-15 19:50:36,654 - speechbrain.utils.train_logger - INFO - Epoch: 43, lr: 1.00e-03 - train loss: 4.32e-01 - valid loss: 6.36, valid error: 5.60e-01
+2021-04-15 19:50:36,739 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-50-36+00
+2021-04-15 19:50:36,904 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-48-52+00
+2021-04-15 19:50:36,904 - speechbrain.utils.epoch_loop - INFO - Going into epoch 44
+2021-04-15 19:52:21,507 - speechbrain.utils.train_logger - INFO - Epoch: 44, lr: 1.00e-03 - train loss: 4.23e-01 - valid loss: 6.42, valid error: 5.52e-01
+2021-04-15 19:52:21,593 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-52-21+00
+2021-04-15 19:52:21,757 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-50-36+00
+2021-04-15 19:52:21,757 - speechbrain.utils.epoch_loop - INFO - Going into epoch 45
+2021-04-15 19:54:05,924 - speechbrain.utils.train_logger - INFO - Epoch: 45, lr: 1.00e-03 - train loss: 4.18e-01 - valid loss: 8.51, valid error: 5.69e-01
+2021-04-15 19:54:06,013 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-54-05+00
+2021-04-15 19:54:06,181 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-52-21+00
+2021-04-15 19:54:06,181 - speechbrain.utils.epoch_loop - INFO - Going into epoch 46
+2021-04-15 19:55:50,204 - speechbrain.utils.train_logger - INFO - Epoch: 46, lr: 1.00e-03 - train loss: 4.03e-01 - valid loss: 7.00, valid error: 5.69e-01
+2021-04-15 19:55:50,291 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-55-50+00
+2021-04-15 19:55:50,460 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-54-05+00
+2021-04-15 19:55:50,460 - speechbrain.utils.epoch_loop - INFO - Going into epoch 47
+2021-04-15 19:57:34,630 - speechbrain.utils.train_logger - INFO - Epoch: 47, lr: 1.00e-03 - train loss: 3.93e-01 - valid loss: 6.72, valid error: 5.58e-01
+2021-04-15 19:57:34,720 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-57-34+00
+2021-04-15 19:57:34,896 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-55-50+00
+2021-04-15 19:57:34,896 - speechbrain.utils.epoch_loop - INFO - Going into epoch 48
+2021-04-15 19:59:18,883 - speechbrain.utils.train_logger - INFO - Epoch: 48, lr: 1.00e-03 - train loss: 3.81e-01 - valid loss: 7.01, valid error: 5.43e-01
+2021-04-15 19:59:18,969 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-59-18+00
+2021-04-15 19:59:19,146 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-57-34+00
+2021-04-15 19:59:19,146 - speechbrain.utils.epoch_loop - INFO - Going into epoch 49
+2021-04-15 20:01:03,459 - speechbrain.utils.train_logger - INFO - Epoch: 49, lr: 1.00e-03 - train loss: 3.49e-01 - valid loss: 7.70, valid error: 5.51e-01
+2021-04-15 20:01:03,547 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+20-01-03+00
+2021-04-15 20:01:03,727 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-59-18+00
+2021-04-15 20:01:03,727 - speechbrain.utils.epoch_loop - INFO - Going into epoch 50
+2021-04-15 20:02:47,938 - speechbrain.utils.train_logger - INFO - Epoch: 50, lr: 1.00e-03 - train loss: 3.46e-01 - valid loss: 9.56, valid error: 5.47e-01
+2021-04-15 20:02:48,026 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+20-02-47+00
+2021-04-15 20:02:48,212 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+20-01-03+00
+2021-04-15 20:02:48,213 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-35-02+00
+2021-04-15 20:02:48,232 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-15 20:02:59,228 - speechbrain.utils.train_logger - INFO - Epoch loaded: 34 - test loss: 6.06, test error: 5.74e-01
+2021-04-15 20:02:59,229 - __main__ - INFO - 	Predicting for train dataset..
+2021-04-15 20:02:59,230 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-35-02+00
+2021-04-15 20:02:59,248 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-15 20:03:38,450 - __main__ - INFO - 	Predictions file created at /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/train_predictions.csv
+2021-04-15 20:03:38,450 - __main__ - INFO - 	Predicting for dev dataset..
+2021-04-15 20:03:38,452 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/CKPT+2021-04-15+19-35-02+00
+2021-04-15 20:03:38,467 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-15 20:03:48,859 - __main__ - INFO - 	Predictions file created at /home/paulrubanbj/EXPERIMENTS/FULL_XVEC_EP_50_GLB_H_CLF/save/dev_predictions.csv
