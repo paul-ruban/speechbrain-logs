@@ -1,0 +1,26 @@
+'Semitic' => 0
+'Basque' => 1
+'Celtic' => 2
+'Romance' => 3
+'Sino_Tibetan' => 4
+'Turkic' => 5
+'West_Slavic' => 6
+'Indo_European' => 7
+'West_Germanic' => 8
+'Universal' => 9
+'Uralic' => 10
+'Kartvelian' => 11
+'Hellenic' => 12
+'Austronesian' => 13
+'Japonic' => 14
+'Berber' => 15
+'Niger_Congo' => 16
+'Baltic' => 17
+'Mongolic' => 18
+'Iranian' => 19
+'East_Slavic' => 20
+'South_Slavic' => 21
+'North_Germanic' => 22
+'Dravidian' => 23
+================
+'starting_index' => 0
