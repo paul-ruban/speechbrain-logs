@@ -1,0 +1,26 @@
+'Sino_Tibetan' => 0
+'North_Germanic' => 1
+'East_Slavic' => 2
+'Kartvelian' => 3
+'Austronesian' => 4
+'West_Slavic' => 5
+'Universal' => 6
+'West_Germanic' => 7
+'Japonic' => 8
+'Romance' => 9
+'Indo_European' => 10
+'Semitic' => 11
+'Hellenic' => 12
+'Basque' => 13
+'Celtic' => 14
+'Turkic' => 15
+'Niger_Congo' => 16
+'Berber' => 17
+'Iranian' => 18
+'Mongolic' => 19
+'Dravidian' => 20
+'Uralic' => 21
+'South_Slavic' => 22
+'Baltic' => 23
+================
+'starting_index' => 0
