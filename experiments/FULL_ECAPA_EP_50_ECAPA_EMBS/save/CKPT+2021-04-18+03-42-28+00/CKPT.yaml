@@ -1,0 +1,5 @@
+# yamllint disable
+end-of-epoch: true
+error: 0.18648098409175873
+loss: 2.7923969930995733
+unixtime: 1618717348.1108828
