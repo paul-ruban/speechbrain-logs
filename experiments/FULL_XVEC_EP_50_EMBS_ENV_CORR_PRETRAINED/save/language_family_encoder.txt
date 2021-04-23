@@ -1,0 +1,26 @@
+'Celtic' => 0
+'South_Slavic' => 1
+'Romance' => 2
+'Turkic' => 3
+'Austronesian' => 4
+'Universal' => 5
+'Hellenic' => 6
+'Basque' => 7
+'Semitic' => 8
+'Mongolic' => 9
+'Indo_European' => 10
+'Baltic' => 11
+'West_Germanic' => 12
+'Dravidian' => 13
+'Japonic' => 14
+'Sino_Tibetan' => 15
+'Berber' => 16
+'Kartvelian' => 17
+'North_Germanic' => 18
+'Iranian' => 19
+'Uralic' => 20
+'East_Slavic' => 21
+'West_Slavic' => 22
+'Niger_Congo' => 23
+================
+'starting_index' => 0
