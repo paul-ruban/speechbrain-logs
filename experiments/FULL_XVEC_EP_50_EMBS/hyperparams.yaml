@@ -1,0 +1,160 @@
+# Generated 2021-04-23 from:
+# /home/guest442/speechbrain_multiling/recipes/CommonVoice/LID/train/hparams/train_xvec_emb.yaml
+# yamllint disable
+# ################################
+# Model: Language Identification with X-Vector
+# Authors: Hwidong Na & Mirco Ravanelli
+# ################################
+
+# Basic parameters
+seed: 1986
+__set_seed: !apply:torch.manual_seed [1986]
+output_folder: /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_EMBS
+save_folder: /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_EMBS/save
+train_log: /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_EMBS/train_log.txt
+
+# Data files
+data_folder: /localscratch/guest442.637122.0/common_voice_kpd/
+                           # e.g. /path/to/Voxceleb
+train_annotation: /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_EMBS/save/train.csv
+valid_annotation: /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_EMBS/save/dev.csv
+
+skip_prep: false
+ckpt_interval_minutes: 60 # save checkpoint every N min
+
+# Training parameters
+number_of_epochs: 50
+batch_size: 16
+lr: 0.001
+base_lr: 0.00000001
+max_lr: 0.001
+step_size: 65000
+sample_rate: 16000
+emb_dim: 512
+
+n_lang_families: 24
+n_languages: 45
+out_neurons: 45                 # Number of languages
+
+# Feature parameters
+n_mels: 24
+
+# Dataloaders
+train_dataloader_options:
+  batch_size: 16
+  drop_last: true
+  shuffle: true
+
+test_dataloader_options:
+  batch_size: 16
+  shuffle: true
+
+# Feature extraction
+compute_features: &id001 !new:speechbrain.lobes.features.Fbank
+  sample_rate: 16000
+  n_mels: 24
+
+# Mean and std normalization of the input features
+mean_var_norm_input: &id002 !new:speechbrain.processing.features.InputNormalization
+  norm_type: sentence
+  std_norm: false
+
+# Embedding Model
+embedding_model: &id003 !new:speechbrain.lobes.models.Xvector.Xvector
+  in_channels: 24
+  activation: !name:torch.nn.LeakyReLU
+  tdnn_blocks: 5
+  tdnn_channels: [512, 512, 512, 512, 1500]
+  tdnn_kernel_sizes: [5, 3, 3, 1, 1]
+  tdnn_dilations: [1, 2, 3, 1, 1]
+  lin_neurons: 512
+
+# Embedding Normalization
+mean_var_norm_emb: &id004 !new:speechbrain.processing.features.InputNormalization
+  norm_type: global
+  std_norm: false
+
+# Classifier
+classifier: &id005 !new:speechbrain.lobes.models.ECAPA_TDNN.Classifier
+
+  input_size: 512
+  lin_blocks: 0
+  lin_neurons: 512
+  out_neurons: 45
+
+
+epoch_counter: &id006 !new:speechbrain.utils.epoch_loop.EpochCounter
+
+# Load pre-trained embeddings from HuggingFace
+  limit: 50
+
+
+
+# # Added noise and reverb come from OpenRIR dataset, automatically
+# # downloaded and prepared with this Environmental Corruption class.
+# env_corrupt: !new:speechbrain.lobes.augment.EnvCorrupt
+#     openrir_folder: !ref <data_folder>
+#     openrir_max_noise_len: 3.0  # seconds
+#     babble_prob: 0.0
+#     reverb_prob: 1.0
+#     noise_prob: 1.0
+#     noise_snr_low: 0
+#     noise_snr_high: 15
+#     rir_scale_factor: 1.0
+
+# # Adds speech change + time and frequency dropouts (time-domain implementation)
+# # A small speed change help to improve the performance of speaker-id as well.
+# augmentation: !new:speechbrain.lobes.augment.TimeDomainSpecAugment
+#     sample_rate: !ref <sample_rate>
+#     speeds: [95, 100, 105]
+
+
+modules:
+    # env_corrupt: !ref <env_corrupt>
+    # augmentation: !ref <augmentation>
+  compute_features: *id001
+  mean_var_norm_input: *id002
+  embedding_model: *id003
+  mean_var_norm_emb: *id004
+  classifier: *id005
+compute_cost: !new:speechbrain.nnet.losses.LogSoftmaxWrapper
+  loss_fn: !new:speechbrain.nnet.losses.AdditiveAngularMargin
+    margin: 0.2
+    scale: 30
+
+compute_error: !name:speechbrain.nnet.losses.classification_error
+
+opt_class: !name:torch.optim.Adam
+  lr: 0.001
+  weight_decay: 0.000002
+
+lr_annealing: !new:speechbrain.nnet.schedulers.CyclicLRScheduler
+  base_lr: 0.00000001
+  max_lr: 0.001
+  step_size: 65000
+
+# Logging + checkpoints
+train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
+  save_file: /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_EMBS/train_log.txt
+
+error_stats: !name:speechbrain.utils.metric_stats.MetricStats
+  metric: !name:speechbrain.nnet.losses.classification_error
+    reduction: batch
+
+checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
+  checkpoints_dir: /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_EMBS/save
+  recoverables:
+    normalizer_input: *id002
+    embedding_model: *id003
+    normalizer_emb: *id004
+    classifier: *id005
+    counter: *id006
+embedding_model_path: /home/guest442/XVEC_PRETRAINED/embedding_model.ckpt
+
+# Pretrained ECAPA embeddings from SpeakerID on VoxCeleb
+pretrainer: !new:speechbrain.utils.parameter_transfer.Pretrainer
+  collect_in: /home/guest442/EXPERIMENTS/FULL_XVEC_EP_50_EMBS/save
+  loadables:
+    embedding_model: *id003
+  paths:
+    embedding_model: /home/guest442/XVEC_PRETRAINED/embedding_model.ckpt
