@@ -1,0 +1,330 @@
+2021-04-24 23:53:27,634 - speechbrain.core - INFO - Beginning experiment!
+2021-04-24 23:53:27,745 - speechbrain.core - INFO - Experiment folder: /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3
+2021-04-24 23:53:28,366 - speechbrain.utils.superpowers - DEBUG - certifi==2020.12.5
+chardet==4.0.0
+filelock==3.0.12
+huggingface-hub==0.0.6
+HyperPyYAML==0.0.1
+idna==2.10
+joblib==1.0.1
+numpy==1.19.1
+packaging==20.9
+pyparsing==2.4.7
+PyYAML==5.3.1
+requests==2.25.1
+ruamel.yaml==0.16.12
+ruamel.yaml.clib==0.2.2
+scipy==1.5.2
+sentencepiece==0.1.91
+-e git+git@github.com:mravanelli-mila/speechbrain_multiling.git@9e1a0e45fe681e1d288290f62c46bd8925fbade6#egg=speechbrain
+torch==1.8.1
+torchaudio==0.8.1
+tqdm==4.60.0
+typing-extensions==3.7.4.3
+urllib3==1.26.4
+
+
+2021-04-24 23:53:28,492 - speechbrain.utils.superpowers - DEBUG - 9e1a0e45
+
+
+2021-04-24 23:53:28,605 - common_voice_lid_prepare - INFO - 45 languages detected!
+2021-04-24 23:53:31,197 - common_voice_lid_prepare - INFO - Data successfully split!
+2021-04-24 23:53:31,198 - common_voice_lid_prepare - INFO - Creating csv lists in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/train.csv ...
+2021-04-24 23:53:38,945 - common_voice_lid_prepare - INFO - /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/train.csv sucessfully created!
+2021-04-24 23:53:38,945 - common_voice_lid_prepare - INFO - Number of samples: 22196 
+2021-04-24 23:53:38,946 - common_voice_lid_prepare - INFO - Total duration: 30.04 Hours
+2021-04-24 23:53:38,951 - common_voice_lid_prepare - INFO - Creating csv lists in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/dev.csv ...
+2021-04-24 23:53:39,729 - common_voice_lid_prepare - INFO - /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/dev.csv sucessfully created!
+2021-04-24 23:53:39,730 - common_voice_lid_prepare - INFO - Number of samples: 5888 
+2021-04-24 23:53:39,730 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-24 23:53:39,731 - common_voice_lid_prepare - INFO - Creating csv lists in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/test.csv ...
+2021-04-24 23:53:40,491 - common_voice_lid_prepare - INFO - /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/test.csv sucessfully created!
+2021-04-24 23:53:40,492 - common_voice_lid_prepare - INFO - Number of samples: 5963 
+2021-04-24 23:53:40,492 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-24 23:53:40,934 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/language_family_encoder.txt, but file doesn't exist yet.
+2021-04-24 23:53:41,170 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-24 23:53:41,172 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/language_family_encoder.txt
+2021-04-24 23:53:41,173 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/language_name_encoder.txt, but file doesn't exist yet.
+2021-04-24 23:53:41,894 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-24 23:53:41,896 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/language_name_encoder.txt
+2021-04-24 23:53:41,896 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save.
+2021-04-24 23:53:41,898 - speechbrain.pretrained.fetching - INFO - Fetch embedding_model.ckpt: Linking to local file in /home/guest442/ECAPA_PRETRAINED/embedding_model.ckpt.
+2021-04-24 23:53:41,900 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: embedding_model
+2021-04-24 23:53:48,303 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-04-24 23:53:48,379 - speechbrain.core - INFO - 20.8M trainable parameters in LID
+2021-04-24 23:53:48,383 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-04-24 23:53:48,384 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-04-25 00:53:49,356 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+00-53-48+00
+2021-04-25 01:11:11,097 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00011 to 0.00011
+2021-04-25 01:11:11,186 - speechbrain.utils.train_logger - INFO - Epoch: 1, lr: 1.08e-04 - train loss: 13.24 - valid loss: 11.31, valid error: 7.02e-01
+2021-04-25 01:11:12,058 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+01-11-11+00
+2021-04-25 01:11:12,153 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+00-53-48+00
+2021-04-25 01:11:12,154 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2021-04-25 02:11:13,481 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+02-11-12+00
+2021-04-25 02:25:36,708 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00022
+2021-04-25 02:25:36,718 - speechbrain.utils.train_logger - INFO - Epoch: 2, lr: 2.16e-04 - train loss: 10.29 - valid loss: 7.37, valid error: 3.58e-01
+2021-04-25 02:25:37,446 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+02-25-36+00
+2021-04-25 02:25:37,565 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+02-11-12+00
+2021-04-25 02:25:37,576 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+01-11-11+00
+2021-04-25 02:25:37,576 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2021-04-25 03:25:38,777 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+03-25-38+00
+2021-04-25 03:40:41,924 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00032 to 0.00032
+2021-04-25 03:40:41,934 - speechbrain.utils.train_logger - INFO - Epoch: 3, lr: 3.24e-04 - train loss: 8.43 - valid loss: 5.44, valid error: 2.41e-01
+2021-04-25 03:40:42,641 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+03-40-41+00
+2021-04-25 03:40:42,791 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+03-25-38+00
+2021-04-25 03:40:42,801 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+02-25-36+00
+2021-04-25 03:40:42,802 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2021-04-25 04:40:44,132 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+04-40-43+00
+2021-04-25 04:54:51,087 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00043 to 0.00043
+2021-04-25 04:54:51,115 - speechbrain.utils.train_logger - INFO - Epoch: 4, lr: 4.32e-04 - train loss: 7.37 - valid loss: 4.97, valid error: 2.27e-01
+2021-04-25 04:54:51,772 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+04-54-51+00
+2021-04-25 04:54:51,949 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+04-40-43+00
+2021-04-25 04:54:51,959 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+03-40-41+00
+2021-04-25 04:54:51,959 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2021-04-25 05:54:53,085 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+05-54-52+00
+2021-04-25 06:09:30,022 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00054 to 0.00054
+2021-04-25 06:09:30,032 - speechbrain.utils.train_logger - INFO - Epoch: 5, lr: 5.40e-04 - train loss: 6.77 - valid loss: 4.58, valid error: 2.09e-01
+2021-04-25 06:09:30,681 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+06-09-30+00
+2021-04-25 06:09:30,885 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+05-54-52+00
+2021-04-25 06:09:30,896 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+04-54-51+00
+2021-04-25 06:09:30,896 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2021-04-25 07:09:31,731 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+07-09-31+00
+2021-04-25 07:22:25,106 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00065 to 0.00065
+2021-04-25 07:22:25,117 - speechbrain.utils.train_logger - INFO - Epoch: 6, lr: 6.48e-04 - train loss: 6.46 - valid loss: 4.57, valid error: 2.15e-01
+2021-04-25 07:22:25,850 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+07-22-25+00
+2021-04-25 07:22:26,079 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+07-09-31+00
+2021-04-25 07:22:26,079 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2021-04-25 08:22:27,075 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+08-22-26+00
+2021-04-25 08:36:31,579 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00076 to 0.00076
+2021-04-25 08:36:31,589 - speechbrain.utils.train_logger - INFO - Epoch: 7, lr: 7.56e-04 - train loss: 6.30 - valid loss: 4.40, valid error: 2.04e-01
+2021-04-25 08:36:32,324 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+08-36-31+00
+2021-04-25 08:36:32,645 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+08-22-26+00
+2021-04-25 08:36:32,656 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+06-09-30+00
+2021-04-25 08:36:32,666 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+07-22-25+00
+2021-04-25 08:36:32,666 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2021-04-25 09:36:33,469 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+09-36-32+00
+2021-04-25 09:50:53,002 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00086 to 0.00086
+2021-04-25 09:50:53,014 - speechbrain.utils.train_logger - INFO - Epoch: 8, lr: 8.64e-04 - train loss: 6.17 - valid loss: 4.47, valid error: 2.10e-01
+2021-04-25 09:50:53,800 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+09-50-53+00
+2021-04-25 09:50:54,088 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+09-36-32+00
+2021-04-25 09:50:54,089 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2021-04-25 10:50:55,188 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+10-50-54+00
+2021-04-25 11:03:55,605 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00097 to 0.00097
+2021-04-25 11:03:55,615 - speechbrain.utils.train_logger - INFO - Epoch: 9, lr: 9.72e-04 - train loss: 6.14 - valid loss: 4.63, valid error: 2.21e-01
+2021-04-25 11:03:56,436 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+11-03-55+00
+2021-04-25 11:03:56,805 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+10-50-54+00
+2021-04-25 11:03:56,816 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+09-50-53+00
+2021-04-25 11:03:56,816 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2021-04-25 12:03:58,258 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+12-03-57+00
+2021-04-25 12:16:46,538 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00092 to 0.00092
+2021-04-25 12:16:46,550 - speechbrain.utils.train_logger - INFO - Epoch: 10, lr: 9.20e-04 - train loss: 6.04 - valid loss: 4.70, valid error: 2.28e-01
+2021-04-25 12:16:47,405 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+12-16-46+00
+2021-04-25 12:16:47,798 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+11-03-55+00
+2021-04-25 12:16:47,841 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+12-03-57+00
+2021-04-25 12:16:47,841 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2021-04-25 13:16:49,559 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+13-16-48+00
+2021-04-25 13:30:42,092 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00081 to 0.00081
+2021-04-25 13:30:42,123 - speechbrain.utils.train_logger - INFO - Epoch: 11, lr: 8.12e-04 - train loss: 5.37 - valid loss: 4.34, valid error: 2.05e-01
+2021-04-25 13:30:42,888 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+13-30-42+00
+2021-04-25 13:30:43,388 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+13-16-48+00
+2021-04-25 13:30:43,400 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+12-16-46+00
+2021-04-25 13:30:43,401 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2021-04-25 14:30:44,901 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+14-30-44+00
+2021-04-25 14:45:41,639 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0007 to 0.0007
+2021-04-25 14:45:41,649 - speechbrain.utils.train_logger - INFO - Epoch: 12, lr: 7.04e-04 - train loss: 4.70 - valid loss: 4.21, valid error: 2.03e-01
+2021-04-25 14:45:42,388 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+14-45-41+00
+2021-04-25 14:45:42,979 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+08-36-31+00
+2021-04-25 14:45:42,989 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+13-30-42+00
+2021-04-25 14:45:43,032 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+14-30-44+00
+2021-04-25 14:45:43,033 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2021-04-25 15:45:44,167 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+15-45-43+00
+2021-04-25 15:59:49,114 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0006 to 0.0006
+2021-04-25 15:59:49,136 - speechbrain.utils.train_logger - INFO - Epoch: 13, lr: 5.96e-04 - train loss: 4.05 - valid loss: 3.99, valid error: 1.89e-01
+2021-04-25 15:59:49,961 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+15-59-49+00
+2021-04-25 15:59:50,384 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+15-45-43+00
+2021-04-25 15:59:50,415 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+14-45-41+00
+2021-04-25 15:59:50,415 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2021-04-25 16:59:51,671 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+16-59-50+00
+2021-04-25 17:13:37,429 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00049 to 0.00049
+2021-04-25 17:13:37,487 - speechbrain.utils.train_logger - INFO - Epoch: 14, lr: 4.88e-04 - train loss: 3.50 - valid loss: 4.17, valid error: 1.88e-01
+2021-04-25 17:13:38,290 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+17-13-37+00
+2021-04-25 17:13:38,756 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+16-59-50+00
+2021-04-25 17:13:38,794 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+15-59-49+00
+2021-04-25 17:13:38,794 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2021-04-25 18:13:40,374 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+18-13-39+00
+2021-04-25 18:27:49,328 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00038 to 0.00038
+2021-04-25 18:27:49,409 - speechbrain.utils.train_logger - INFO - Epoch: 15, lr: 3.80e-04 - train loss: 2.87 - valid loss: 4.13, valid error: 1.97e-01
+2021-04-25 18:27:50,261 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+18-27-49+00
+2021-04-25 18:27:50,746 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+18-13-39+00
+2021-04-25 18:27:50,746 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2021-04-25 19:27:52,257 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+19-27-51+00
+2021-04-25 19:42:04,249 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00027 to 0.00027
+2021-04-25 19:42:04,296 - speechbrain.utils.train_logger - INFO - Epoch: 16, lr: 2.72e-04 - train loss: 2.40 - valid loss: 4.61, valid error: 2.12e-01
+2021-04-25 19:42:05,197 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+19-42-04+00
+2021-04-25 19:42:05,775 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+18-27-49+00
+2021-04-25 19:42:05,836 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+19-27-51+00
+2021-04-25 19:42:05,836 - speechbrain.utils.epoch_loop - INFO - Going into epoch 17
+2021-04-25 20:42:07,003 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+20-42-06+00
+2021-04-25 20:54:30,548 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00016 to 0.00016
+2021-04-25 20:54:30,634 - speechbrain.utils.train_logger - INFO - Epoch: 17, lr: 1.64e-04 - train loss: 1.96 - valid loss: 4.89, valid error: 2.14e-01
+2021-04-25 20:54:31,472 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+20-54-30+00
+2021-04-25 20:54:32,154 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+20-42-06+00
+2021-04-25 20:54:32,210 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+19-42-04+00
+2021-04-25 20:54:32,210 - speechbrain.utils.epoch_loop - INFO - Going into epoch 18
+2021-04-25 21:54:33,810 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+21-54-33+00
+2021-04-25 22:07:28,462 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.6e-05 to 5.6e-05
+2021-04-25 22:07:28,490 - speechbrain.utils.train_logger - INFO - Epoch: 18, lr: 5.57e-05 - train loss: 1.60 - valid loss: 4.25, valid error: 1.93e-01
+2021-04-25 22:07:29,248 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+22-07-28+00
+2021-04-25 22:07:29,946 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+21-54-33+00
+2021-04-25 22:07:29,958 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+20-54-30+00
+2021-04-25 22:07:29,958 - speechbrain.utils.epoch_loop - INFO - Going into epoch 19
+2021-04-25 23:07:31,658 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+23-07-30+00
+2021-04-25 23:20:02,480 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.2e-05 to 5.2e-05
+2021-04-25 23:20:02,521 - speechbrain.utils.train_logger - INFO - Epoch: 19, lr: 5.23e-05 - train loss: 1.33 - valid loss: 3.63, valid error: 1.72e-01
+2021-04-25 23:20:03,264 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+23-20-02+00
+2021-04-25 23:20:04,060 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+17-13-37+00
+2021-04-25 23:20:04,072 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+22-07-28+00
+2021-04-25 23:20:04,117 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+23-07-30+00
+2021-04-25 23:20:04,118 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2021-04-26 00:46:57,151 - speechbrain.core - INFO - Beginning experiment!
+2021-04-26 00:46:57,156 - speechbrain.core - INFO - Experiment folder: /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3
+2021-04-26 00:46:57,974 - speechbrain.utils.superpowers - DEBUG - certifi==2020.12.5
+chardet==4.0.0
+filelock==3.0.12
+huggingface-hub==0.0.6
+HyperPyYAML==0.0.1
+idna==2.10
+joblib==1.0.1
+numpy==1.19.1
+packaging==20.9
+pyparsing==2.4.7
+PyYAML==5.3.1
+requests==2.25.1
+ruamel.yaml==0.16.12
+ruamel.yaml.clib==0.2.2
+scipy==1.5.2
+sentencepiece==0.1.91
+-e git+git@github.com:mravanelli-mila/speechbrain_multiling.git@9e1a0e45fe681e1d288290f62c46bd8925fbade6#egg=speechbrain
+torch==1.8.1
+torchaudio==0.8.1
+tqdm==4.60.0
+typing-extensions==3.7.4.3
+urllib3==1.26.4
+
+
+2021-04-26 00:47:00,307 - speechbrain.utils.superpowers - DEBUG - 9e1a0e45
+
+
+2021-04-26 00:47:00,434 - common_voice_lid_prepare - INFO - 45 languages detected!
+2021-04-26 00:47:01,173 - common_voice_lid_prepare - INFO - Data successfully split!
+2021-04-26 00:47:01,173 - common_voice_lid_prepare - INFO - Creating csv lists in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/train.csv ...
+2021-04-26 00:47:05,975 - common_voice_lid_prepare - INFO - /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/train.csv sucessfully created!
+2021-04-26 00:47:05,976 - common_voice_lid_prepare - INFO - Number of samples: 22196 
+2021-04-26 00:47:05,976 - common_voice_lid_prepare - INFO - Total duration: 30.04 Hours
+2021-04-26 00:47:05,980 - common_voice_lid_prepare - INFO - Creating csv lists in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/dev.csv ...
+2021-04-26 00:47:08,823 - common_voice_lid_prepare - INFO - /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/dev.csv sucessfully created!
+2021-04-26 00:47:08,823 - common_voice_lid_prepare - INFO - Number of samples: 5888 
+2021-04-26 00:47:08,823 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-26 00:47:08,824 - common_voice_lid_prepare - INFO - Creating csv lists in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/test.csv ...
+2021-04-26 00:47:09,573 - common_voice_lid_prepare - INFO - /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/test.csv sucessfully created!
+2021-04-26 00:47:09,573 - common_voice_lid_prepare - INFO - Number of samples: 5963 
+2021-04-26 00:47:09,574 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-26 00:47:10,058 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/language_family_encoder.txt
+2021-04-26 00:47:10,058 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-26 00:47:10,060 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/language_family_encoder.txt
+2021-04-26 00:47:10,064 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/language_name_encoder.txt
+2021-04-26 00:47:10,064 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-26 00:47:10,066 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/language_name_encoder.txt
+2021-04-26 00:47:10,066 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save.
+2021-04-26 00:47:10,070 - speechbrain.pretrained.fetching - INFO - Fetch embedding_model.ckpt: Using existing file/symlink in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/embedding_model.ckpt.
+2021-04-26 00:47:10,071 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: embedding_model
+2021-04-26 00:47:16,840 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-04-26 00:47:16,916 - speechbrain.core - INFO - 20.8M trainable parameters in LID
+2021-04-26 00:47:16,949 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+23-20-02+00
+2021-04-26 00:47:18,615 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2021-04-26 01:47:20,379 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+01-47-19+00
+2021-04-26 01:55:09,965 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00011 to 0.00011
+2021-04-26 01:55:10,002 - speechbrain.utils.train_logger - INFO - Epoch: 20, lr: 1.08e-04 - train loss: 1.31 - valid loss: 4.27, valid error: 1.90e-01
+2021-04-26 01:55:10,892 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+01-55-10+00
+2021-04-26 01:55:11,003 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+01-47-19+00
+2021-04-26 01:55:11,004 - speechbrain.utils.epoch_loop - INFO - Going into epoch 21
+2021-04-26 02:55:12,045 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+02-55-11+00
+2021-04-26 03:04:41,435 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00022
+2021-04-26 03:04:41,446 - speechbrain.utils.train_logger - INFO - Epoch: 21, lr: 2.16e-04 - train loss: 1.40 - valid loss: 4.83, valid error: 2.23e-01
+2021-04-26 03:04:42,432 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+03-04-41+00
+2021-04-26 03:04:42,586 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+02-55-11+00
+2021-04-26 03:04:42,598 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+01-55-10+00
+2021-04-26 03:04:42,598 - speechbrain.utils.epoch_loop - INFO - Going into epoch 22
+2021-04-26 04:04:43,683 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+04-04-42+00
+2021-04-26 04:13:30,209 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00032 to 0.00032
+2021-04-26 04:13:30,219 - speechbrain.utils.train_logger - INFO - Epoch: 22, lr: 3.24e-04 - train loss: 1.56 - valid loss: 3.88, valid error: 1.84e-01
+2021-04-26 04:13:31,018 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+04-13-30+00
+2021-04-26 04:13:31,201 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+04-04-42+00
+2021-04-26 04:13:31,211 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+03-04-41+00
+2021-04-26 04:13:31,212 - speechbrain.utils.epoch_loop - INFO - Going into epoch 23
+2021-04-26 05:13:32,226 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+05-13-31+00
+2021-04-26 05:21:06,006 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00043 to 0.00043
+2021-04-26 05:21:06,019 - speechbrain.utils.train_logger - INFO - Epoch: 23, lr: 4.32e-04 - train loss: 1.71 - valid loss: 5.21, valid error: 2.39e-01
+2021-04-26 05:21:06,796 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+05-21-06+00
+2021-04-26 05:21:07,038 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+05-13-31+00
+2021-04-26 05:21:07,049 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+04-13-30+00
+2021-04-26 05:21:07,049 - speechbrain.utils.epoch_loop - INFO - Going into epoch 24
+2021-04-26 06:21:08,543 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+06-21-07+00
+2021-04-26 06:27:53,022 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00054 to 0.00054
+2021-04-26 06:27:53,034 - speechbrain.utils.train_logger - INFO - Epoch: 24, lr: 5.40e-04 - train loss: 1.98 - valid loss: 6.31, valid error: 2.63e-01
+2021-04-26 06:27:53,949 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+06-27-53+00
+2021-04-26 06:27:54,163 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+05-21-06+00
+2021-04-26 06:27:54,210 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+06-21-07+00
+2021-04-26 06:27:54,211 - speechbrain.utils.epoch_loop - INFO - Going into epoch 25
+2021-04-26 07:27:55,607 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+07-27-54+00
+2021-04-26 07:33:18,980 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00065 to 0.00065
+2021-04-26 07:33:19,024 - speechbrain.utils.train_logger - INFO - Epoch: 25, lr: 6.48e-04 - train loss: 2.22 - valid loss: 6.19, valid error: 2.73e-01
+2021-04-26 07:33:19,906 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+07-33-19+00
+2021-04-26 07:33:20,215 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+07-27-54+00
+2021-04-26 07:33:20,226 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+06-27-53+00
+2021-04-26 07:33:20,227 - speechbrain.utils.epoch_loop - INFO - Going into epoch 26
+2021-04-26 08:33:21,732 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+08-33-21+00
+2021-04-26 08:40:48,767 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00076 to 0.00076
+2021-04-26 08:40:48,778 - speechbrain.utils.train_logger - INFO - Epoch: 26, lr: 7.56e-04 - train loss: 2.52 - valid loss: 5.88, valid error: 2.62e-01
+2021-04-26 08:40:49,514 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+08-40-48+00
+2021-04-26 08:40:49,847 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+08-33-21+00
+2021-04-26 08:40:49,857 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+07-33-19+00
+2021-04-26 08:40:49,858 - speechbrain.utils.epoch_loop - INFO - Going into epoch 27
+2021-04-26 09:40:51,849 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+09-40-51+00
+2021-04-26 09:48:45,506 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00086 to 0.00086
+2021-04-26 09:48:45,517 - speechbrain.utils.train_logger - INFO - Epoch: 27, lr: 8.64e-04 - train loss: 2.81 - valid loss: 6.76, valid error: 2.89e-01
+2021-04-26 09:48:46,256 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+09-48-45+00
+2021-04-26 09:48:46,581 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+08-40-48+00
+2021-04-26 09:48:46,623 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+09-40-51+00
+2021-04-26 09:48:46,624 - speechbrain.utils.epoch_loop - INFO - Going into epoch 28
+2021-04-26 10:48:47,665 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+10-48-47+00
+2021-04-26 10:57:35,083 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00097 to 0.00097
+2021-04-26 10:57:35,094 - speechbrain.utils.train_logger - INFO - Epoch: 28, lr: 9.72e-04 - train loss: 3.17 - valid loss: 7.41, valid error: 3.22e-01
+2021-04-26 10:57:35,806 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+10-57-35+00
+2021-04-26 10:57:36,172 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+09-48-45+00
+2021-04-26 10:57:36,214 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+10-48-47+00
+2021-04-26 10:57:36,215 - speechbrain.utils.epoch_loop - INFO - Going into epoch 29
+2021-04-26 11:57:37,110 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+11-57-36+00
+2021-04-26 12:07:18,503 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00092 to 0.00092
+2021-04-26 12:07:18,513 - speechbrain.utils.train_logger - INFO - Epoch: 29, lr: 9.20e-04 - train loss: 3.38 - valid loss: 6.83, valid error: 3.03e-01
+2021-04-26 12:07:19,215 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+12-07-18+00
+2021-04-26 12:07:19,628 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+10-57-35+00
+2021-04-26 12:07:19,671 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+11-57-36+00
+2021-04-26 12:07:19,672 - speechbrain.utils.epoch_loop - INFO - Going into epoch 30
+2021-04-26 13:07:20,666 - speechbrain.utils.checkpoints - DEBUG - Saved an intra-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+13-07-19+00
+2021-04-26 13:15:59,442 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00081 to 0.00081
+2021-04-26 13:15:59,456 - speechbrain.utils.train_logger - INFO - Epoch: 30, lr: 8.12e-04 - train loss: 3.07 - valid loss: 7.48, valid error: 3.23e-01
+2021-04-26 13:16:00,199 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+13-15-59+00
+2021-04-26 13:16:00,650 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+12-07-18+00
+2021-04-26 13:16:00,697 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-26+13-07-19+00
+2021-04-26 13:16:00,704 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+23-20-02+00
+2021-04-26 13:16:01,377 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-26 13:18:41,483 - speechbrain.utils.train_logger - INFO - Epoch loaded: 19 - test loss: 3.95, test error: 1.86e-01
+2021-04-26 13:18:41,483 - __main__ - INFO - 	Predicting for train dataset..
+2021-04-26 13:18:41,492 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+23-20-02+00
+2021-04-26 13:18:41,731 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-26 13:29:36,224 - utils - INFO - 	Predictions file created at /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/train_predictions.csv
+2021-04-26 13:29:36,227 - __main__ - INFO - 	Predicting for dev dataset..
+2021-04-26 13:29:36,237 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/CKPT+2021-04-25+23-20-02+00
+2021-04-26 13:29:36,481 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-26 13:32:10,616 - utils - INFO - 	Predictions file created at /home/guest442/EXPERIMENTS/FULL_ECAPA_EP_30_EMB_AAM_0_3/save/dev_predictions.csv
