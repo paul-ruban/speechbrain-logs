@@ -1,0 +1,596 @@
+2021-04-24 20:06:12,335 - speechbrain.core - INFO - Beginning experiment!
+2021-04-24 20:06:12,336 - speechbrain.core - INFO - Experiment folder: /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM
+2021-04-24 20:06:13,059 - speechbrain.utils.superpowers - DEBUG - absl-py==0.12.0
+alabaster==0.7.12
+albumentations==0.1.12
+altair==4.1.0
+appdirs==1.4.4
+argon2-cffi==20.1.0
+astor==0.8.1
+astropy==4.2.1
+astunparse==1.6.3
+async-generator==1.10
+atari-py==0.2.6
+atomicwrites==1.4.0
+attrs==20.3.0
+audioread==2.1.9
+autograd==1.3
+Babel==2.9.0
+backcall==0.2.0
+beautifulsoup4==4.6.3
+black==20.8b1
+bleach==3.3.0
+blis==0.4.1
+bokeh==2.3.1
+Bottleneck==1.3.2
+branca==0.4.2
+bs4==0.0.1
+CacheControl==0.12.6
+cachetools==4.2.1
+catalogue==1.0.0
+certifi==2020.12.5
+cffi==1.14.5
+cfgv==3.2.0
+chainer==7.4.0
+chardet==3.0.4
+click==7.1.2
+cloudpickle==1.3.0
+cmake==3.12.0
+cmdstanpy==0.9.5
+colab-ssh==0.3.15
+colorcet==2.0.6
+colorlover==0.3.0
+community==1.0.0b1
+contextlib2==0.5.5
+convertdate==2.3.2
+coverage==3.7.1
+coveralls==0.5
+crcmod==1.7
+cufflinks==0.17.3
+cupy-cuda101==7.4.0
+cvxopt==1.2.6
+cvxpy==1.0.31
+cycler==0.10.0
+cymem==2.0.5
+Cython==0.29.22
+daft==0.0.4
+dask==2.12.0
+datascience==0.10.6
+debugpy==1.0.0
+decorator==4.4.2
+defusedxml==0.7.1
+descartes==1.1.0
+dill==0.3.3
+distlib==0.3.1
+distributed==1.25.3
+dlib==19.18.0
+dm-tree==0.1.6
+docopt==0.6.2
+docutils==0.17
+dopamine-rl==1.0.5
+earthengine-api==0.1.260
+easydict==1.9
+ecos==2.0.7.post1
+editdistance==0.5.3
+en-core-web-sm==2.2.5
+entrypoints==0.3
+ephem==3.7.7.1
+et-xmlfile==1.0.1
+fa2==0.3.5
+fancyimpute==0.4.3
+fastai==1.0.61
+fastdtw==0.3.4
+fastprogress==1.0.0
+fastrlock==0.6
+fbprophet==0.7.1
+feather-format==0.4.1
+filelock==3.0.12
+firebase-admin==4.4.0
+fix-yahoo-finance==0.0.22
+flake8==3.9.1
+Flask==1.1.2
+flatbuffers==1.12
+folium==0.8.3
+future==0.16.0
+gast==0.3.3
+GDAL==2.2.2
+gdown==3.6.4
+gensim==3.6.0
+geographiclib==1.50
+geopy==1.17.0
+gin-config==0.4.0
+glob2==0.7
+google==2.0.3
+google-api-core==1.26.3
+google-api-python-client==1.12.8
+google-auth==1.28.1
+google-auth-httplib2==0.0.4
+google-auth-oauthlib==0.4.4
+google-cloud-bigquery==1.21.0
+google-cloud-bigquery-storage==1.1.0
+google-cloud-core==1.0.3
+google-cloud-datastore==1.8.0
+google-cloud-firestore==1.7.0
+google-cloud-language==1.2.0
+google-cloud-storage==1.18.1
+google-cloud-translate==1.5.0
+google-colab==1.0.0
+google-pasta==0.2.0
+google-resumable-media==0.4.1
+googleapis-common-protos==1.53.0
+googledrivedownloader==0.4
+graphviz==0.10.1
+greenlet==1.0.0
+grpcio==1.32.0
+gspread==3.0.1
+gspread-dataframe==3.0.8
+gym==0.17.3
+h5py==2.10.0
+HeapDict==1.0.1
+hijri-converter==2.1.1
+holidays==0.10.5.2
+holoviews==1.14.3
+html5lib==1.0.1
+httpimport==0.5.18
+httplib2==0.17.4
+httplib2shim==0.0.3
+huggingface-hub==0.0.8
+humanize==0.5.1
+hyperopt==0.1.2
+HyperPyYAML==1.0.0
+ideep4py==2.0.0.post3
+identify==2.2.4
+idna==2.10
+imageio==2.4.1
+imagesize==1.2.0
+imbalanced-learn==0.4.3
+imblearn==0.0
+imgaug==0.2.9
+importlib-metadata==3.10.1
+importlib-resources==5.1.2
+imutils==0.5.4
+inflect==2.1.0
+iniconfig==1.1.1
+intel-openmp==2021.2.0
+intervaltree==2.1.0
+ipykernel==4.10.1
+ipython==5.5.0
+ipython-genutils==0.2.0
+ipython-sql==0.3.9
+ipywidgets==7.6.3
+itsdangerous==1.1.0
+jax==0.2.12
+jaxlib==0.1.65+cuda110
+jdcal==1.4.1
+jedi==0.18.0
+jieba==0.42.1
+Jinja2==2.11.3
+joblib==1.0.1
+jpeg4py==0.1.4
+jsonschema==2.6.0
+jupyter==1.0.0
+jupyter-client==5.3.5
+jupyter-console==5.2.0
+jupyter-core==4.7.1
+jupyterlab-pygments==0.1.2
+jupyterlab-widgets==1.0.0
+kaggle==1.5.12
+kapre==0.1.3.1
+Keras==2.4.3
+Keras-Preprocessing==1.1.2
+keras-vis==0.4.1
+kiwisolver==1.3.1
+knnimpute==0.1.0
+korean-lunar-calendar==0.2.1
+librosa==0.8.0
+lightgbm==2.2.3
+llvmlite==0.34.0
+lmdb==0.99
+LunarCalendar==0.0.9
+lxml==4.2.6
+Markdown==3.3.4
+MarkupSafe==1.1.1
+matplotlib==3.2.2
+matplotlib-venn==0.11.6
+mccabe==0.6.1
+missingno==0.4.2
+mistune==0.8.4
+mizani==0.6.0
+mkl==2019.0
+mlxtend==0.14.0
+more-itertools==8.7.0
+moviepy==0.2.3.5
+mpmath==1.2.1
+msgpack==1.0.2
+multiprocess==0.70.11.1
+multitasking==0.0.9
+murmurhash==1.0.5
+music21==5.5.0
+mypy-extensions==0.4.3
+natsort==5.5.0
+nbclient==0.5.3
+nbconvert==5.6.1
+nbformat==5.1.3
+nest-asyncio==1.5.1
+networkx==2.5.1
+nibabel==3.0.2
+nltk==3.2.5
+nodeenv==1.6.0
+notebook==5.3.1
+np-utils==0.5.12.1
+numba==0.51.2
+numexpr==2.7.3
+numpy==1.19.5
+nvidia-ml-py3==7.352.0
+oauth2client==4.1.3
+oauthlib==3.1.0
+okgrade==0.4.3
+opencv-contrib-python==4.1.2.30
+opencv-python==4.1.2.30
+openpyxl==2.5.9
+opt-einsum==3.3.0
+osqp==0.6.2.post0
+packaging==20.9
+palettable==3.3.0
+pandas==1.1.5
+pandas-datareader==0.9.0
+pandas-gbq==0.13.3
+pandas-profiling==1.4.1
+pandocfilters==1.4.3
+panel==0.11.2
+param==1.10.1
+parso==0.8.2
+pathlib==1.0.1
+pathspec==0.8.1
+patsy==0.5.1
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==7.1.2
+pip-tools==4.5.1
+plac==1.1.3
+plotly==4.4.1
+plotnine==0.6.0
+pluggy==0.13.1
+pooch==1.3.0
+portpicker==1.3.1
+pre-commit==2.12.1
+prefetch-generator==1.0.1
+preshed==3.0.5
+prettytable==2.1.0
+progressbar2==3.38.0
+prometheus-client==0.10.1
+promise==2.3
+prompt-toolkit==1.0.18
+protobuf==3.12.4
+psutil==5.4.8
+psycopg2==2.7.6.1
+ptyprocess==0.7.0
+py==1.10.0
+pyarrow==3.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycocotools==2.0.2
+pycodestyle==2.7.0
+pycparser==2.20
+pyct==0.4.8
+pydata-google-auth==1.1.0
+pydot==1.3.0
+pydot-ng==2.0.0
+pydotplus==2.0.2
+PyDrive==1.3.1
+pyemd==0.5.1
+pyerfa==1.7.2
+pyflakes==2.3.1
+pyglet==1.5.0
+Pygments==2.6.1
+pygobject==3.26.1
+pymc3==3.7
+PyMeeus==0.5.11
+pymongo==3.11.3
+pymystem3==0.2.0
+PyOpenGL==3.1.5
+pyparsing==2.4.7
+pyrsistent==0.17.3
+pysndfile==1.3.8
+PySocks==1.7.1
+pystan==2.19.1.1
+pytest==6.2.3
+python-apt==0.0.0
+python-chess==0.23.11
+python-dateutil==2.8.1
+python-louvain==0.15
+python-slugify==4.0.1
+python-utils==2.5.6
+pytorch-metric-learning==0.9.98
+pytz==2018.9
+pyviz-comms==2.0.1
+PyWavelets==1.1.1
+PyYAML==5.4.1
+pyzmq==22.0.3
+qdldl==0.1.5.post0
+qtconsole==5.0.3
+QtPy==1.9.0
+regex==2021.4.4
+requests==2.23.0
+requests-oauthlib==1.3.0
+resampy==0.2.2
+retrying==1.3.3
+rpy2==3.4.3
+rsa==4.7.2
+ruamel.yaml==0.17.4
+ruamel.yaml.clib==0.2.2
+scikit-image==0.16.2
+scikit-learn==0.22.2.post1
+scipy==1.4.1
+screen-resolution-extra==0.0.0
+scs==2.1.3
+seaborn==0.11.1
+Send2Trash==1.5.0
+sentencepiece==0.1.95
+setuptools-git==1.2
+Shapely==1.7.1
+simplegeneric==0.8.1
+six==1.15.0
+sklearn==0.0
+sklearn-pandas==1.8.0
+smart-open==5.0.0
+snowballstemmer==2.1.0
+sortedcontainers==2.3.0
+SoundFile==0.10.3.post1
+spacy==2.2.4
+Sphinx==1.8.5
+sphinxcontrib-serializinghtml==1.1.4
+sphinxcontrib-websupport==1.2.4
+SQLAlchemy==1.4.7
+sqlparse==0.4.1
+srsly==1.0.5
+statsmodels==0.10.2
+sympy==1.7.1
+tables==3.4.4
+tabulate==0.8.9
+tblib==1.7.0
+tensorboard==2.4.1
+tensorboard-plugin-wit==1.8.0
+tensorflow==2.4.1
+tensorflow-datasets==4.0.1
+tensorflow-estimator==2.4.0
+tensorflow-gcs-config==2.4.0
+tensorflow-hub==0.12.0
+tensorflow-metadata==0.29.0
+tensorflow-probability==0.12.1
+termcolor==1.1.0
+terminado==0.9.4
+testpath==0.4.4
+text-unidecode==1.3
+textblob==0.15.3
+textgenrnn==1.4.1
+Theano==1.0.5
+thinc==7.4.0
+tifffile==2021.4.8
+toml==0.10.2
+toolz==0.11.1
+torch==1.8.1+cu101
+torchaudio==0.8.1
+torchsummary==1.5.1
+torchtext==0.9.1
+torchvision==0.9.1+cu101
+tornado==5.1.1
+tqdm==4.60.0
+traitlets==5.0.5
+tweepy==3.10.0
+typed-ast==1.4.3
+typeguard==2.7.1
+typing-extensions==3.7.4.3
+tzlocal==1.5.1
+uritemplate==3.0.1
+urllib3==1.24.3
+vega-datasets==0.9.0
+virtualenv==20.4.4
+wasabi==0.8.2
+wcwidth==0.2.5
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension==3.5.1
+wordcloud==1.5.0
+wrapt==1.12.1
+xarray==0.15.1
+xgboost==0.90
+xkit==0.0.0
+xlrd==1.1.0
+xlwt==1.3.0
+yamllint==1.26.1
+yellowbrick==0.9.1
+zict==2.0.0
+zipp==3.4.1
+
+
+2021-04-24 20:06:13,073 - speechbrain.utils.superpowers - DEBUG - ac01981d
+
+
+2021-04-24 20:06:13,102 - common_voice_lid_prepare - INFO - 45 languages detected!
+2021-04-24 20:06:13,598 - common_voice_lid_prepare - INFO - Data successfully split!
+2021-04-24 20:06:13,599 - common_voice_lid_prepare - INFO - Creating csv lists in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/train.csv ...
+2021-04-24 20:06:14,784 - common_voice_lid_prepare - INFO - /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/train.csv sucessfully created!
+2021-04-24 20:06:14,785 - common_voice_lid_prepare - INFO - Number of samples: 22196 
+2021-04-24 20:06:14,785 - common_voice_lid_prepare - INFO - Total duration: 30.04 Hours
+2021-04-24 20:06:14,788 - common_voice_lid_prepare - INFO - Creating csv lists in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/dev.csv ...
+2021-04-24 20:06:15,089 - common_voice_lid_prepare - INFO - /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/dev.csv sucessfully created!
+2021-04-24 20:06:15,089 - common_voice_lid_prepare - INFO - Number of samples: 5888 
+2021-04-24 20:06:15,090 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-24 20:06:15,090 - common_voice_lid_prepare - INFO - Creating csv lists in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/test.csv ...
+2021-04-24 20:06:15,445 - common_voice_lid_prepare - INFO - /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/test.csv sucessfully created!
+2021-04-24 20:06:15,445 - common_voice_lid_prepare - INFO - Number of samples: 5963 
+2021-04-24 20:06:15,445 - common_voice_lid_prepare - INFO - Total duration: 7.53 Hours
+2021-04-24 20:06:15,798 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/language_family_encoder.txt, but file doesn't exist yet.
+2021-04-24 20:06:15,954 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-24 20:06:15,956 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/language_family_encoder.txt
+2021-04-24 20:06:15,956 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/language_name_encoder.txt, but file doesn't exist yet.
+2021-04-24 20:06:16,350 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2021-04-24 20:06:16,353 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/language_name_encoder.txt
+2021-04-24 20:06:16,353 - speechbrain.utils.parameter_transfer - DEBUG - Collecting files (or symlinks) for pretraining in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save.
+2021-04-24 20:06:16,354 - speechbrain.pretrained.fetching - INFO - Fetch embedding_model.ckpt: Delegating to Huggingface hub, source speechbrain/spkrec-ecapa-voxceleb.
+2021-04-24 20:06:16,358 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2021-04-24 20:06:16,503 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /speechbrain/spkrec-ecapa-voxceleb/resolve/main/embedding_model.ckpt HTTP/1.1" 302 0
+2021-04-24 20:06:16,510 - speechbrain.utils.parameter_transfer - INFO - Loading pretrained files for: embedding_model
+2021-04-24 20:06:19,092 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2021-04-24 20:06:19,120 - speechbrain.core - INFO - 20.8M trainable parameters in LID
+2021-04-24 20:06:19,126 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2021-04-24 20:06:19,127 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2021-04-24 20:33:15,860 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00011 to 0.00011
+2021-04-24 20:33:15,865 - speechbrain.utils.train_logger - INFO - Epoch: 1, lr: 1.08e-04 - train loss: 10.40 - valid loss: 8.36, valid error: 6.95e-01
+2021-04-24 20:33:16,790 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+20-33-15+00
+2021-04-24 20:33:16,819 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2021-04-24 21:00:11,837 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00022
+2021-04-24 21:00:11,842 - speechbrain.utils.train_logger - INFO - Epoch: 2, lr: 2.16e-04 - train loss: 7.55 - valid loss: 5.04, valid error: 3.36e-01
+2021-04-24 21:00:12,791 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+21-00-11+00
+2021-04-24 21:00:12,898 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+20-33-15+00
+2021-04-24 21:00:12,898 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2021-04-24 21:27:05,089 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00032 to 0.00032
+2021-04-24 21:27:05,093 - speechbrain.utils.train_logger - INFO - Epoch: 3, lr: 3.24e-04 - train loss: 6.03 - valid loss: 3.78, valid error: 2.41e-01
+2021-04-24 21:27:06,003 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+21-27-05+00
+2021-04-24 21:27:06,115 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+21-00-11+00
+2021-04-24 21:27:06,116 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2021-04-24 21:53:41,154 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00043 to 0.00043
+2021-04-24 21:53:41,157 - speechbrain.utils.train_logger - INFO - Epoch: 4, lr: 4.32e-04 - train loss: 5.23 - valid loss: 3.49, valid error: 2.25e-01
+2021-04-24 21:53:42,017 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+21-53-41+00
+2021-04-24 21:53:42,146 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+21-27-05+00
+2021-04-24 21:53:42,146 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2021-04-24 22:20:13,452 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00054 to 0.00054
+2021-04-24 22:20:13,455 - speechbrain.utils.train_logger - INFO - Epoch: 5, lr: 5.40e-04 - train loss: 4.84 - valid loss: 3.25, valid error: 2.07e-01
+2021-04-24 22:20:14,285 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+22-20-13+00
+2021-04-24 22:20:15,397 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+21-53-41+00
+2021-04-24 22:20:15,397 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2021-04-24 22:46:45,549 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00065 to 0.00065
+2021-04-24 22:46:45,552 - speechbrain.utils.train_logger - INFO - Epoch: 6, lr: 6.48e-04 - train loss: 4.63 - valid loss: 3.27, valid error: 2.15e-01
+2021-04-24 22:46:46,732 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+22-46-45+00
+2021-04-24 22:46:46,858 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2021-04-24 23:13:15,832 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00076 to 0.00076
+2021-04-24 23:13:15,835 - speechbrain.utils.train_logger - INFO - Epoch: 7, lr: 7.56e-04 - train loss: 4.53 - valid loss: 3.37, valid error: 2.21e-01
+2021-04-24 23:13:16,737 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+23-13-15+00
+2021-04-24 23:13:17,706 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+22-46-45+00
+2021-04-24 23:13:17,707 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2021-04-24 23:39:48,881 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00086 to 0.00086
+2021-04-24 23:39:48,884 - speechbrain.utils.train_logger - INFO - Epoch: 8, lr: 8.64e-04 - train loss: 4.47 - valid loss: 3.20, valid error: 2.08e-01
+2021-04-24 23:39:49,766 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+23-39-48+00
+2021-04-24 23:39:50,032 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+23-13-15+00
+2021-04-24 23:39:50,054 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2021-04-25 00:06:19,712 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00097 to 0.00097
+2021-04-25 00:06:19,715 - speechbrain.utils.train_logger - INFO - Epoch: 9, lr: 9.72e-04 - train loss: 4.47 - valid loss: 3.37, valid error: 2.20e-01
+2021-04-25 00:06:20,619 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+00-06-19+00
+2021-04-25 00:06:20,876 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+23-39-48+00
+2021-04-25 00:06:20,876 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2021-04-25 00:32:48,803 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00092 to 0.00092
+2021-04-25 00:32:48,806 - speechbrain.utils.train_logger - INFO - Epoch: 10, lr: 9.20e-04 - train loss: 4.41 - valid loss: 3.22, valid error: 2.09e-01
+2021-04-25 00:32:49,690 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+00-32-48+00
+2021-04-25 00:32:49,984 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+00-06-19+00
+2021-04-25 00:32:49,985 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2021-04-25 00:59:16,374 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00081 to 0.00081
+2021-04-25 00:59:16,377 - speechbrain.utils.train_logger - INFO - Epoch: 11, lr: 8.12e-04 - train loss: 3.95 - valid loss: 3.02, valid error: 1.98e-01
+2021-04-25 00:59:17,235 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+00-59-16+00
+2021-04-25 00:59:17,570 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-24+22-20-13+00
+2021-04-25 00:59:17,601 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+00-32-48+00
+2021-04-25 00:59:17,601 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2021-04-25 01:25:41,017 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0007 to 0.0007
+2021-04-25 01:25:41,020 - speechbrain.utils.train_logger - INFO - Epoch: 12, lr: 7.04e-04 - train loss: 3.42 - valid loss: 2.99, valid error: 1.96e-01
+2021-04-25 01:25:41,926 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+01-25-41+00
+2021-04-25 01:25:43,150 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+00-59-16+00
+2021-04-25 01:25:43,150 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2021-04-25 01:52:07,524 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0006 to 0.0006
+2021-04-25 01:52:07,527 - speechbrain.utils.train_logger - INFO - Epoch: 13, lr: 5.96e-04 - train loss: 2.91 - valid loss: 2.78, valid error: 1.79e-01
+2021-04-25 01:52:08,419 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+01-52-07+00
+2021-04-25 01:52:08,694 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+01-25-41+00
+2021-04-25 01:52:08,695 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2021-04-25 02:18:48,524 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00049 to 0.00049
+2021-04-25 02:18:48,528 - speechbrain.utils.train_logger - INFO - Epoch: 14, lr: 4.88e-04 - train loss: 2.50 - valid loss: 2.94, valid error: 1.89e-01
+2021-04-25 02:18:49,481 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+02-18-48+00
+2021-04-25 02:18:49,753 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2021-04-25 02:45:56,708 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00038 to 0.00038
+2021-04-25 02:45:56,712 - speechbrain.utils.train_logger - INFO - Epoch: 15, lr: 3.80e-04 - train loss: 2.06 - valid loss: 2.59, valid error: 1.67e-01
+2021-04-25 02:45:57,698 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+02-45-56+00
+2021-04-25 02:45:58,126 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+01-52-07+00
+2021-04-25 02:45:58,157 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+02-18-48+00
+2021-04-25 02:45:58,158 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2021-04-25 03:13:05,430 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00027 to 0.00027
+2021-04-25 03:13:05,434 - speechbrain.utils.train_logger - INFO - Epoch: 16, lr: 2.72e-04 - train loss: 1.71 - valid loss: 2.59, valid error: 1.64e-01
+2021-04-25 03:13:06,360 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+03-13-05+00
+2021-04-25 03:13:07,695 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+02-45-56+00
+2021-04-25 03:13:07,696 - speechbrain.utils.epoch_loop - INFO - Going into epoch 17
+2021-04-25 03:40:16,933 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00016 to 0.00016
+2021-04-25 03:40:16,937 - speechbrain.utils.train_logger - INFO - Epoch: 17, lr: 1.64e-04 - train loss: 1.39 - valid loss: 2.49, valid error: 1.61e-01
+2021-04-25 03:40:17,894 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+03-40-16+00
+2021-04-25 03:40:18,310 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+03-13-05+00
+2021-04-25 03:40:18,311 - speechbrain.utils.epoch_loop - INFO - Going into epoch 18
+2021-04-25 04:07:19,834 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.6e-05 to 5.6e-05
+2021-04-25 04:07:19,838 - speechbrain.utils.train_logger - INFO - Epoch: 18, lr: 5.57e-05 - train loss: 1.13 - valid loss: 2.39, valid error: 1.54e-01
+2021-04-25 04:07:20,806 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+04-07-19+00
+2021-04-25 04:07:21,213 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+03-40-16+00
+2021-04-25 04:07:21,213 - speechbrain.utils.epoch_loop - INFO - Going into epoch 19
+2021-04-25 04:34:20,303 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.2e-05 to 5.2e-05
+2021-04-25 04:34:20,307 - speechbrain.utils.train_logger - INFO - Epoch: 19, lr: 5.23e-05 - train loss: 9.77e-01 - valid loss: 2.66, valid error: 1.54e-01
+2021-04-25 04:34:21,295 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+04-34-20+00
+2021-04-25 04:34:21,632 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2021-04-25 05:01:15,661 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00016 to 0.00016
+2021-04-25 05:01:15,664 - speechbrain.utils.train_logger - INFO - Epoch: 20, lr: 1.60e-04 - train loss: 9.64e-01 - valid loss: 2.80, valid error: 1.65e-01
+2021-04-25 05:01:16,599 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+05-01-15+00
+2021-04-25 05:01:17,125 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+04-34-20+00
+2021-04-25 05:01:17,126 - speechbrain.utils.epoch_loop - INFO - Going into epoch 21
+2021-04-25 05:28:18,232 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00027 to 0.00027
+2021-04-25 05:28:18,237 - speechbrain.utils.train_logger - INFO - Epoch: 21, lr: 2.68e-04 - train loss: 1.08 - valid loss: 2.56, valid error: 1.64e-01
+2021-04-25 05:28:19,206 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+05-28-18+00
+2021-04-25 05:28:19,828 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+05-01-15+00
+2021-04-25 05:28:19,829 - speechbrain.utils.epoch_loop - INFO - Going into epoch 22
+2021-04-25 05:55:24,536 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00038 to 0.00038
+2021-04-25 05:55:24,540 - speechbrain.utils.train_logger - INFO - Epoch: 22, lr: 3.76e-04 - train loss: 1.21 - valid loss: 3.02, valid error: 1.82e-01
+2021-04-25 05:55:25,674 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+05-55-24+00
+2021-04-25 05:55:26,259 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+05-28-18+00
+2021-04-25 05:55:26,260 - speechbrain.utils.epoch_loop - INFO - Going into epoch 23
+2021-04-25 06:22:33,004 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00048 to 0.00048
+2021-04-25 06:22:33,007 - speechbrain.utils.train_logger - INFO - Epoch: 23, lr: 4.84e-04 - train loss: 1.34 - valid loss: 2.91, valid error: 1.88e-01
+2021-04-25 06:22:34,113 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+06-22-33+00
+2021-04-25 06:22:34,709 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+05-55-24+00
+2021-04-25 06:22:34,710 - speechbrain.utils.epoch_loop - INFO - Going into epoch 24
+2021-04-25 06:49:44,786 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00059 to 0.00059
+2021-04-25 06:49:44,790 - speechbrain.utils.train_logger - INFO - Epoch: 24, lr: 5.92e-04 - train loss: 1.53 - valid loss: 2.77, valid error: 1.83e-01
+2021-04-25 06:49:45,776 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+06-49-44+00
+2021-04-25 06:49:46,520 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+06-22-33+00
+2021-04-25 06:49:46,520 - speechbrain.utils.epoch_loop - INFO - Going into epoch 25
+2021-04-25 07:16:50,219 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0007 to 0.0007
+2021-04-25 07:16:50,222 - speechbrain.utils.train_logger - INFO - Epoch: 25, lr: 7.00e-04 - train loss: 1.75 - valid loss: 3.23, valid error: 2.02e-01
+2021-04-25 07:16:51,178 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+07-16-50+00
+2021-04-25 07:16:51,871 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+06-49-44+00
+2021-04-25 07:16:51,871 - speechbrain.utils.epoch_loop - INFO - Going into epoch 26
+2021-04-25 07:43:51,108 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00081 to 0.00081
+2021-04-25 07:43:51,111 - speechbrain.utils.train_logger - INFO - Epoch: 26, lr: 8.08e-04 - train loss: 1.98 - valid loss: 3.35, valid error: 2.21e-01
+2021-04-25 07:43:52,095 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+07-43-51+00
+2021-04-25 07:43:52,813 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+07-16-50+00
+2021-04-25 07:43:52,814 - speechbrain.utils.epoch_loop - INFO - Going into epoch 27
+2021-04-25 08:10:49,788 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00092 to 0.00092
+2021-04-25 08:10:49,791 - speechbrain.utils.train_logger - INFO - Epoch: 27, lr: 9.16e-04 - train loss: 2.19 - valid loss: 3.80, valid error: 2.41e-01
+2021-04-25 08:10:50,819 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+08-10-49+00
+2021-04-25 08:10:51,555 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+07-43-51+00
+2021-04-25 08:10:51,555 - speechbrain.utils.epoch_loop - INFO - Going into epoch 28
+2021-04-25 08:37:57,400 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00098 to 0.00098
+2021-04-25 08:37:57,404 - speechbrain.utils.train_logger - INFO - Epoch: 28, lr: 9.76e-04 - train loss: 2.43 - valid loss: 4.55, valid error: 2.83e-01
+2021-04-25 08:37:58,334 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+08-37-57+00
+2021-04-25 08:37:59,211 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+08-10-49+00
+2021-04-25 08:37:59,211 - speechbrain.utils.epoch_loop - INFO - Going into epoch 29
+2021-04-25 09:05:04,029 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00087 to 0.00087
+2021-04-25 09:05:04,032 - speechbrain.utils.train_logger - INFO - Epoch: 29, lr: 8.68e-04 - train loss: 2.37 - valid loss: 4.02, valid error: 2.49e-01
+2021-04-25 09:05:04,962 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+09-05-04+00
+2021-04-25 09:05:06,206 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+08-37-57+00
+2021-04-25 09:05:06,206 - speechbrain.utils.epoch_loop - INFO - Going into epoch 30
+2021-04-25 09:32:13,210 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00076 to 0.00076
+2021-04-25 09:32:13,215 - speechbrain.utils.train_logger - INFO - Epoch: 30, lr: 7.60e-04 - train loss: 2.08 - valid loss: 4.11, valid error: 2.54e-01
+2021-04-25 09:32:14,627 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+09-32-13+00
+2021-04-25 09:32:15,420 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+09-05-04+00
+2021-04-25 09:32:15,429 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+04-07-19+00
+2021-04-25 09:32:15,605 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-25 09:33:26,169 - speechbrain.utils.train_logger - INFO - Epoch loaded: 18 - test loss: 2.50, test error: 1.60e-01
+2021-04-25 09:33:26,170 - __main__ - INFO - 	Predicting for train dataset..
+2021-04-25 09:33:26,179 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+04-07-19+00
+2021-04-25 09:33:26,374 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-25 09:37:06,922 - utils - INFO - 	Predictions file created at /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/train_predictions.csv
+2021-04-25 09:37:06,924 - __main__ - INFO - 	Predicting for dev dataset..
+2021-04-25 09:37:06,936 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/CKPT+2021-04-25+04-07-19+00
+2021-04-25 09:37:07,127 - root - WARNING - SaveableDataLoader was requested to load a checkpoint, but the data loader has already been iterated. Cannot load checkpoint here. Assuming that the checkpoint was only loaded for e.g. retrieving the best model
+2021-04-25 09:38:05,023 - utils - INFO - 	Predictions file created at /content/drive/MyDrive/IFT6758-AP/Project/FULL_ECAPA_EP_30_EMBS_AM/save/dev_predictions.csv
